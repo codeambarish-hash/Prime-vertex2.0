@@ -1,0 +1,29 @@
+# ==============================================================================
+# Vision-Based Defect Detection for Manufacturing Quality Inspection
+# Project Requirements Specification
+# ==============================================================================
+
+# Core Deep Learning & Computer Vision (Consistent PyTorch Stack)
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+scikit-image>=0.21.0
+
+# Robustness Augmentations (Lighting, Orientation, Backgrounds)
+albumentations>=1.3.1
+scipy>=1.11.0
+pillow>=10.0.0
+
+# Visualization, Anomaly Heatmaps & Reporting
+matplotlib>=3.7.0
+seaborn>=0.12.0
+tqdm>=4.66.0
+
+# Web Application & Deployment API
+flask>=2.2.0
+werkzeug>=2.2.0
+
+# Dataset acquisition & utilities
+requests>=2.31.0

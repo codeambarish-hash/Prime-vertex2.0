@@ -1,0 +1,34 @@
+[
+  {
+    "sample_id": "CASE_3_MODEL_DISAGREEMENT",
+    "timestamp": "2026-09-10T14:11:56.583865Z",
+    "predicted_class": "normal",
+    "classifier_confidence": 0.89,
+    "anomaly_score": 0.84,
+    "review_reason": "Disagreement between Anomaly Detector and Multiclass Classifier",
+    "tta_vote_ratio": 0.0,
+    "raw_blobs_count": 0,
+    "surviving_blobs_count": 0,
+    "total_area_px": 0,
+    "total_area_mm2": 0.0,
+    "decision": "MANUAL_REVIEW",
+    "recommended_action": "Inspect optical surface under high-magnification stereomicroscope.",
+    "status": "PENDING_TRIAGE"
+  },
+  {
+    "sample_id": "CASE_4_BORDERLINE_CONFIDENCE",
+    "timestamp": "2026-09-10T14:11:56.584205Z",
+    "predicted_class": "stain",
+    "classifier_confidence": 0.54,
+    "anomaly_score": 0.62,
+    "review_reason": "Borderline classifier confidence (54.0%) within audit window [45%, 70%]; Disagreement between Anomaly Detector and Multiclass Classifier",
+    "tta_vote_ratio": 0.0,
+    "raw_blobs_count": 1,
+    "surviving_blobs_count": 1,
+    "total_area_px": 35,
+    "total_area_mm2": 0.35,
+    "decision": "MANUAL_REVIEW",
+    "recommended_action": "Inspect optical surface under high-magnification stereomicroscope.",
+    "status": "PENDING_TRIAGE"
+  }
+]

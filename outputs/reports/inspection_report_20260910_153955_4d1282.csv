@@ -1,0 +1,2 @@
+filename,is_defective,defect_type,confidence,defect_area_mm2,defect_area_px,anomaly_score,inference_time_ms,decision_status
+specimen_01_crack.png,True,crack,0.9685,12.32,1232.0,0.9879,15.95,CONFIRMED_DEFECT

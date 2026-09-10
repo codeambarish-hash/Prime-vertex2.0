@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="750" viewBox="0 0 1000 750">
+<title>Inspectra AI — Comprehensive Evaluation Scorecard</title>
+<rect width="1000" height="750" fill="#ffffff" />
+<rect x="0" y="0" width="1000" height="70" fill="#0f172a" />
+<text x="25" y="32" font-family="sans-serif" font-size="18" font-weight="bold" fill="#ffffff">INSPECTRA AI — QUALITY ASSURANCE EVALUATION SCORECARD</text>
+<text x="25" y="54" font-family="monospace" font-size="12" fill="#94a3b8">Evaluated: 2026-09-10 15:29:07Z | Total Samples: 140 | Taxonomy: 7 Classes</text>
+<rect x="25" y="85" width="180" height="55" rx="8" fill="#f8fafc" stroke="#e2e8f0" />
+<text x="37" y="105" font-family="sans-serif" font-size="11" font-weight="600" fill="#64748b">ROC-AUC</text>
+<text x="37" y="129" font-family="monospace" font-size="18" font-weight="bold" fill="#3b82f6">0.9967</text>
+<rect x="217" y="85" width="180" height="55" rx="8" fill="#f8fafc" stroke="#e2e8f0" />
+<text x="229" y="105" font-family="sans-serif" font-size="11" font-weight="600" fill="#64748b">Accuracy</text>
+<text x="229" y="129" font-family="monospace" font-size="18" font-weight="bold" fill="#10b981">95.7%</text>
+<rect x="409" y="85" width="180" height="55" rx="8" fill="#f8fafc" stroke="#e2e8f0" />
+<text x="421" y="105" font-family="sans-serif" font-size="11" font-weight="600" fill="#64748b">Macro F1</text>
+<text x="421" y="129" font-family="monospace" font-size="18" font-weight="bold" fill="#6366f1">91.5%</text>
+<rect x="601" y="85" width="180" height="55" rx="8" fill="#f8fafc" stroke="#e2e8f0" />
+<text x="613" y="105" font-family="sans-serif" font-size="11" font-weight="600" fill="#64748b">Mean Mask IoU</text>
+<text x="613" y="129" font-family="monospace" font-size="18" font-weight="bold" fill="#f59e0b">0.7107</text>
+<rect x="793" y="85" width="180" height="55" rx="8" fill="#f8fafc" stroke="#e2e8f0" />
+<text x="805" y="105" font-family="sans-serif" font-size="11" font-weight="600" fill="#64748b">IoU@0.50 Pass</text>
+<text x="805" y="129" font-family="monospace" font-size="18" font-weight="bold" fill="#ec4899">87.5%</text>
+<rect x="25" y="155" width="455" height="260" rx="8" fill="#ffffff" stroke="#e2e8f0" />
+<text x="40" y="180" font-family="sans-serif" font-size="13" font-weight="bold" fill="#0f172a">1. ROC Curve (AUC = 0.9967)</text>
+<rect x="505" y="155" width="470" height="260" rx="8" fill="#ffffff" stroke="#e2e8f0" />
+<text x="520" y="180" font-family="sans-serif" font-size="13" font-weight="bold" fill="#0f172a">2. Precision-Recall Curve (AP = 0.9994)</text>
+<rect x="25" y="435" width="455" height="285" rx="8" fill="#ffffff" stroke="#e2e8f0" />
+<text x="40" y="460" font-family="sans-serif" font-size="13" font-weight="bold" fill="#0f172a">3. Confusion Matrix (Accuracy = 91.4%)</text>
+<rect x="505" y="435" width="470" height="285" rx="8" fill="#ffffff" stroke="#e2e8f0" />
+<text x="520" y="460" font-family="sans-serif" font-size="13" font-weight="bold" fill="#0f172a">4. Spatial Defect Localization Performance</text>
+<text x="525" y="490" font-family="sans-serif" font-size="11" fill="#475569">Mean Mask IoU (Test Set)</text>
+<text x="940" y="490" font-family="monospace" font-size="11" font-weight="bold" fill="#0f172a" text-anchor="end">0.7107</text>
+<line x1="525" y1="496" x2="940" y2="496" stroke="#f1f5f9" stroke-width="1" />
+<text x="525" y="522" font-family="sans-serif" font-size="11" fill="#475569">Defective-Only Mean Mask IoU</text>
+<text x="940" y="522" font-family="monospace" font-size="11" font-weight="bold" fill="#0f172a" text-anchor="end">0.6624</text>
+<line x1="525" y1="528" x2="940" y2="528" stroke="#f1f5f9" stroke-width="1" />
+<text x="525" y="554" font-family="sans-serif" font-size="11" fill="#475569">Mean Bounding Box IoU</text>
+<text x="940" y="554" font-family="monospace" font-size="11" font-weight="bold" fill="#0f172a" text-anchor="end">0.7107</text>
+<line x1="525" y1="560" x2="940" y2="560" stroke="#f1f5f9" stroke-width="1" />
+<text x="525" y="586" font-family="sans-serif" font-size="11" fill="#475569">Mean Dice Similarity (F1)</text>
+<text x="940" y="586" font-family="monospace" font-size="11" font-weight="bold" fill="#0f172a" text-anchor="end">0.8178</text>
+<line x1="525" y1="592" x2="940" y2="592" stroke="#f1f5f9" stroke-width="1" />
+<text x="525" y="618" font-family="sans-serif" font-size="11" fill="#475569">Localization Accuracy @ IoU >= 0.50</text>
+<text x="940" y="618" font-family="monospace" font-size="11" font-weight="bold" fill="#0f172a" text-anchor="end">87.5%</text>
+<line x1="525" y1="624" x2="940" y2="624" stroke="#f1f5f9" stroke-width="1" />
+<text x="525" y="650" font-family="sans-serif" font-size="11" fill="#475569">Localization Accuracy @ IoU >= 0.70</text>
+<text x="940" y="650" font-family="monospace" font-size="11" font-weight="bold" fill="#0f172a" text-anchor="end">39.2%</text>
+<line x1="525" y1="656" x2="940" y2="656" stroke="#f1f5f9" stroke-width="1" />
+</svg>

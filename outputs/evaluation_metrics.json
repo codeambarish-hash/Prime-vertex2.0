@@ -1,0 +1,208 @@
+{
+  "timestamp": "2026-09-10 15:29:07Z",
+  "detection": {
+    "accuracy": 0.9571,
+    "precision": 0.9831,
+    "recall": 0.9667,
+    "specificity": 0.9,
+    "f1_score": 0.9748,
+    "roc_auc": 0.9967,
+    "pr_auc": 0.9994,
+    "decision_threshold": 0.5,
+    "optimal_threshold": 0.74,
+    "tp": 116,
+    "fp": 2,
+    "tn": 18,
+    "fn": 4,
+    "total_samples": 140,
+    "defective_count": 120,
+    "normal_count": 20
+  },
+  "classification": {
+    "accuracy": 0.9143,
+    "macro_precision": 0.9253,
+    "macro_recall": 0.9143,
+    "macro_f1": 0.9148,
+    "weighted_precision": 0.9253,
+    "weighted_recall": 0.9143,
+    "weighted_f1": 0.9148,
+    "confusion_matrix": [
+      [
+        20,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        19,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        19,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        17,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        5,
+        15,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        18
+      ]
+    ],
+    "class_names": [
+      "normal",
+      "crack",
+      "scratch",
+      "dent",
+      "stain",
+      "discoloration",
+      "dimensional_irregularity"
+    ],
+    "per_class": {
+      "normal": {
+        "class_name": "normal",
+        "class_idx": 0,
+        "support": 20,
+        "tp": 20,
+        "fp": 0,
+        "fn": 0,
+        "tn": 120,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "specificity": 1.0
+      },
+      "crack": {
+        "class_name": "crack",
+        "class_idx": 1,
+        "support": 20,
+        "tp": 19,
+        "fp": 2,
+        "fn": 1,
+        "tn": 118,
+        "precision": 0.9048,
+        "recall": 0.95,
+        "f1_score": 0.9268,
+        "specificity": 0.9833
+      },
+      "scratch": {
+        "class_name": "scratch",
+        "class_idx": 2,
+        "support": 20,
+        "tp": 19,
+        "fp": 1,
+        "fn": 1,
+        "tn": 119,
+        "precision": 0.95,
+        "recall": 0.95,
+        "f1_score": 0.95,
+        "specificity": 0.9917
+      },
+      "dent": {
+        "class_name": "dent",
+        "class_idx": 3,
+        "support": 20,
+        "tp": 17,
+        "fp": 1,
+        "fn": 3,
+        "tn": 119,
+        "precision": 0.9444,
+        "recall": 0.85,
+        "f1_score": 0.8947,
+        "specificity": 0.9917
+      },
+      "stain": {
+        "class_name": "stain",
+        "class_idx": 4,
+        "support": 20,
+        "tp": 20,
+        "fp": 7,
+        "fn": 0,
+        "tn": 113,
+        "precision": 0.7407,
+        "recall": 1.0,
+        "f1_score": 0.8511,
+        "specificity": 0.9417
+      },
+      "discoloration": {
+        "class_name": "discoloration",
+        "class_idx": 5,
+        "support": 20,
+        "tp": 15,
+        "fp": 1,
+        "fn": 5,
+        "tn": 119,
+        "precision": 0.9375,
+        "recall": 0.75,
+        "f1_score": 0.8333,
+        "specificity": 0.9917
+      },
+      "dimensional_irregularity": {
+        "class_name": "dimensional_irregularity",
+        "class_idx": 6,
+        "support": 20,
+        "tp": 18,
+        "fp": 0,
+        "fn": 2,
+        "tn": 120,
+        "precision": 1.0,
+        "recall": 0.9,
+        "f1_score": 0.9474,
+        "specificity": 1.0
+      }
+    }
+  },
+  "localization": {
+    "mean_mask_iou": 0.7107,
+    "defective_mean_mask_iou": 0.6624,
+    "mean_box_iou": 0.7107,
+    "mean_dice_score": 0.8178,
+    "iou_at_50_accuracy": 0.875,
+    "iou_at_70_accuracy": 0.3917,
+    "total_samples": 140,
+    "defective_samples": 120,
+    "normal_samples": 20
+  }
+}

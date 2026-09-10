@@ -1,0 +1,80 @@
+==============================================================================
+  INSPECTRA AI — QUALITY ASSURANCE EVALUATION & BENCHMARK REPORT
+==============================================================================
+  Report Timestamp:        2026-09-10 15:29:07Z
+  Benchmark Taxonomy:      7 Industrial Classes (normal, crack, scratch, dent, stain, discoloration, dimensional_irregularity)
+  Evaluated Test Samples:  140 parts (120 Defective, 20 Normal)
+  Decision Threshold:      τ = 0.50 (Optimal Youden's J: τ* = 0.74)
+------------------------------------------------------------------------------
+
+SECTION 1: BINARY DEFECT DETECTION PERFORMANCE (NORMAL vs. DEFECTIVE)
+------------------------------------------------------------------------------
+  Detection Accuracy:       95.71%  (134 / 140 samples correct)
+  Precision (PPV):          98.31%  (Defect prediction accuracy)
+  Recall (Sensitivity/TPR): 96.67%  (Defect catch rate)
+  Specificity (TNR):        90.00%  (Normal clearance rate)
+  False Positive Rate (FPR):10.00%  (Pristine parts falsely rejected)
+  F1-Score (Harmonic Mean): 0.9748
+  ROC-AUC Score:            0.9967  (Area Under Receiver Operating Characteristic)
+  PR-AUC (Avg Precision):   0.9994  (Area Under Precision-Recall Curve)
+
+  Binary Confusion Breakdown:
+    True Positives (TP):    116   (Confirmed Defective Parts)
+    True Negatives (TN):    18    (Cleared Pristine Parts)
+    False Positives (FP):   2     (False Alarms / Over-rejections)
+    False Negatives (FN):   4     (Missed Defects / Critical Escapes)
+
+SECTION 2: MULTI-CLASS DEFECT CLASSIFICATION PERFORMANCE
+------------------------------------------------------------------------------
+  Overall Multi-Class Accuracy: 91.43%
+  Macro Precision:              92.53%
+  Macro Recall:                 91.43%
+  Macro F1-Score:               0.9148  (91.48%)
+  Weighted F1-Score:            0.9148  (91.48%)
+
+  Per-Class Performance Ledger:
+  Class Name                 Support  Prec (%)   Recall (%)   F1-Score   Spec (%)  
+  --------------------------------------------------------------------------
+  Normal                     20       100.00     100.00       1.0000     100.00    
+  Crack                      20       90.48      95.00        0.9268     98.33     
+  Scratch                    20       95.00      95.00        0.9500     99.17     
+  Dent                       20       94.44      85.00        0.8947     99.17     
+  Stain                      20       74.07      100.00       0.8511     94.17     
+  Discoloration              20       93.75      75.00        0.8333     99.17     
+  Dimensional Irregularity   20       100.00     90.00        0.9474     100.00    
+  --------------------------------------------------------------------------
+  Macro Average              140      92.53      91.43        0.9148     -         
+  Weighted Average           140      92.53      91.43        0.9148     -         
+
+SECTION 3: CONFUSION MATRIX
+------------------------------------------------------------------------------
+  True / Pred     normal   crack  scratc    dent   stain  discol  dimens
+  ----------------------------------------------------------------------
+  normal              20       0       0       0       0       0       0
+  crack                0      19       1       0       0       0       0
+  scratch              0       1      19       0       0       0       0
+  dent                 0       1       0      17       2       0       0
+  stain                0       0       0       0      20       0       0
+  discoloratio         0       0       0       0       5      15       0
+  dimensional_         0       0       0       1       0       1      18
+
+SECTION 4: SPATIAL DEFECT LOCALIZATION (IoU & SEGMENTATION ACCURACY)
+------------------------------------------------------------------------------
+  Mean Mask IoU (Test Set):          0.7107  (71.07%)
+  Defective-Only Mean Mask IoU:      0.6624  (66.24%)
+  Mean Bounding Box IoU:             0.7107  (71.07%)
+  Mean Dice Coefficient (Mask F1):   0.8178  (81.78%)
+  IoU @ 0.50 Success Rate:           87.50%  (Defects localized with >= 50% overlap)
+  IoU @ 0.70 Success Rate:           39.17%  (Defects localized with >= 70% overlap)
+
+SECTION 5: GENERATED VISUALIZATION ARTIFACTS
+------------------------------------------------------------------------------
+  [+] ROC Curve:                     outputs/roc_curve.png
+  [+] Precision-Recall Curve:        outputs/precision_recall_curve.png
+  [+] Multi-Class Confusion Matrix:  outputs/confusion_matrix.png
+  [+] Master Evaluation Scorecard:   outputs/evaluation_scorecard.png
+  [+] Structured JSON Metrics:       outputs/evaluation_metrics.json
+  [+] Text Audit Summary:            outputs/evaluation_report.txt
+==============================================================================
+  EVALUATION STATUS: PASS (Quality targets satisfied for industrial deployment)
+==============================================================================

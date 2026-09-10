@@ -1,0 +1,8 @@
+{
+  "name": "Remix Inspectra AI",
+  "description": "AI Powered Visual Inspection — Industrial defect detection, Grad-CAM localization, false-positive reduction with dual confidence gating, morphological filtering, TTA voting, and manual review audit triage.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
