@@ -1,0 +1,1392 @@
+[
+  {
+    "id": "ref_crack_000",
+    "filename": "keras_crack_0002_specimen_01_crack.png",
+    "image": "ref_crack_000.png",
+    "class": "crack",
+    "dataset_source": "keras_dataset",
+    "image_path": "data/unified_keras_dataset/crack/keras_crack_0002_specimen_01_crack.png",
+    "safe_url": "/reference_images/ref_crack_000.png",
+    "embedding_index": 0
+  },
+  {
+    "id": "ref_crack_001",
+    "filename": "keras_crack_0003_specimen_highres_01_crack.png",
+    "image": "ref_crack_001.png",
+    "class": "crack",
+    "dataset_source": "keras_dataset",
+    "image_path": "data/unified_keras_dataset/crack/keras_crack_0003_specimen_highres_01_crack.png",
+    "safe_url": "/reference_images/ref_crack_001.png",
+    "embedding_index": 1
+  },
+  {
+    "id": "ref_crack_002",
+    "filename": "pytorch_crack_0014_pytorch_crack_000.png",
+    "image": "ref_crack_002.png",
+    "class": "crack",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/crack/pytorch_crack_0014_pytorch_crack_000.png",
+    "safe_url": "/reference_images/ref_crack_002.png",
+    "embedding_index": 2
+  },
+  {
+    "id": "ref_crack_003",
+    "filename": "pytorch_crack_0015_pytorch_crack_001.png",
+    "image": "ref_crack_003.png",
+    "class": "crack",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/crack/pytorch_crack_0015_pytorch_crack_001.png",
+    "safe_url": "/reference_images/ref_crack_003.png",
+    "embedding_index": 3
+  },
+  {
+    "id": "ref_crack_004",
+    "filename": "pytorch_crack_0016_pytorch_crack_002.png",
+    "image": "ref_crack_004.png",
+    "class": "crack",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/crack/pytorch_crack_0016_pytorch_crack_002.png",
+    "safe_url": "/reference_images/ref_crack_004.png",
+    "embedding_index": 4
+  },
+  {
+    "id": "ref_crack_005",
+    "filename": "pytorch_crack_0017_pytorch_crack_003.png",
+    "image": "ref_crack_005.png",
+    "class": "crack",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/crack/pytorch_crack_0017_pytorch_crack_003.png",
+    "safe_url": "/reference_images/ref_crack_005.png",
+    "embedding_index": 5
+  },
+  {
+    "id": "ref_crack_006",
+    "filename": "pytorch_crack_0018_pytorch_crack_004.png",
+    "image": "ref_crack_006.png",
+    "class": "crack",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/crack/pytorch_crack_0018_pytorch_crack_004.png",
+    "safe_url": "/reference_images/ref_crack_006.png",
+    "embedding_index": 6
+  },
+  {
+    "id": "ref_crack_007",
+    "filename": "pytorch_crack_0020_pytorch_crack_006.png",
+    "image": "ref_crack_007.png",
+    "class": "crack",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/crack/pytorch_crack_0020_pytorch_crack_006.png",
+    "safe_url": "/reference_images/ref_crack_007.png",
+    "embedding_index": 7
+  },
+  {
+    "id": "ref_crack_008",
+    "filename": "pytorch_crack_0021_pytorch_crack_007.png",
+    "image": "ref_crack_008.png",
+    "class": "crack",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/crack/pytorch_crack_0021_pytorch_crack_007.png",
+    "safe_url": "/reference_images/ref_crack_008.png",
+    "embedding_index": 8
+  },
+  {
+    "id": "ref_crack_009",
+    "filename": "pytorch_crack_0022_pytorch_crack_008.png",
+    "image": "ref_crack_009.png",
+    "class": "crack",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/crack/pytorch_crack_0022_pytorch_crack_008.png",
+    "safe_url": "/reference_images/ref_crack_009.png",
+    "embedding_index": 9
+  },
+  {
+    "id": "ref_crack_010",
+    "filename": "pytorch_crack_0023_pytorch_crack_009.png",
+    "image": "ref_crack_010.png",
+    "class": "crack",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/crack/pytorch_crack_0023_pytorch_crack_009.png",
+    "safe_url": "/reference_images/ref_crack_010.png",
+    "embedding_index": 10
+  },
+  {
+    "id": "ref_crack_011",
+    "filename": "pytorch_crack_0024_pytorch_crack_010.png",
+    "image": "ref_crack_011.png",
+    "class": "crack",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/crack/pytorch_crack_0024_pytorch_crack_010.png",
+    "safe_url": "/reference_images/ref_crack_011.png",
+    "embedding_index": 11
+  },
+  {
+    "id": "ref_crack_012",
+    "filename": "pytorch_crack_0025_pytorch_crack_011.png",
+    "image": "ref_crack_012.png",
+    "class": "crack",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/crack/pytorch_crack_0025_pytorch_crack_011.png",
+    "safe_url": "/reference_images/ref_crack_012.png",
+    "embedding_index": 12
+  },
+  {
+    "id": "ref_crack_013",
+    "filename": "pytorch_crack_0026_pytorch_crack_012.png",
+    "image": "ref_crack_013.png",
+    "class": "crack",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/crack/pytorch_crack_0026_pytorch_crack_012.png",
+    "safe_url": "/reference_images/ref_crack_013.png",
+    "embedding_index": 13
+  },
+  {
+    "id": "ref_crack_014",
+    "filename": "pytorch_crack_0027_pytorch_crack_013.png",
+    "image": "ref_crack_014.png",
+    "class": "crack",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/crack/pytorch_crack_0027_pytorch_crack_013.png",
+    "safe_url": "/reference_images/ref_crack_014.png",
+    "embedding_index": 14
+  },
+  {
+    "id": "ref_crack_015",
+    "filename": "pytorch_crack_0112_pytorch_crack_014.png",
+    "image": "ref_crack_015.png",
+    "class": "crack",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/crack/pytorch_crack_0112_pytorch_crack_014.png",
+    "safe_url": "/reference_images/ref_crack_015.png",
+    "embedding_index": 15
+  },
+  {
+    "id": "ref_crack_016",
+    "filename": "pytorch_crack_0113_pytorch_crack_015.png",
+    "image": "ref_crack_016.png",
+    "class": "crack",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/crack/pytorch_crack_0113_pytorch_crack_015.png",
+    "safe_url": "/reference_images/ref_crack_016.png",
+    "embedding_index": 16
+  },
+  {
+    "id": "ref_crack_017",
+    "filename": "pytorch_crack_0114_pytorch_crack_016.png",
+    "image": "ref_crack_017.png",
+    "class": "crack",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/crack/pytorch_crack_0114_pytorch_crack_016.png",
+    "safe_url": "/reference_images/ref_crack_017.png",
+    "embedding_index": 17
+  },
+  {
+    "id": "ref_crack_018",
+    "filename": "pytorch_crack_0133_pytorch_crack_017.png",
+    "image": "ref_crack_018.png",
+    "class": "crack",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/crack/pytorch_crack_0133_pytorch_crack_017.png",
+    "safe_url": "/reference_images/ref_crack_018.png",
+    "embedding_index": 18
+  },
+  {
+    "id": "ref_crack_019",
+    "filename": "pytorch_crack_0135_pytorch_crack_019.png",
+    "image": "ref_crack_019.png",
+    "class": "crack",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/crack/pytorch_crack_0135_pytorch_crack_019.png",
+    "safe_url": "/reference_images/ref_crack_019.png",
+    "embedding_index": 19
+  },
+  {
+    "id": "ref_dent_020",
+    "filename": "keras_dent_0006_specimen_03_dent.png",
+    "image": "ref_dent_020.png",
+    "class": "dent",
+    "dataset_source": "keras_dataset",
+    "image_path": "data/unified_keras_dataset/dent/keras_dent_0006_specimen_03_dent.png",
+    "safe_url": "/reference_images/ref_dent_020.png",
+    "embedding_index": 20
+  },
+  {
+    "id": "ref_dent_021",
+    "filename": "keras_dent_0007_specimen_highres_04_dent.png",
+    "image": "ref_dent_021.png",
+    "class": "dent",
+    "dataset_source": "keras_dataset",
+    "image_path": "data/unified_keras_dataset/dent/keras_dent_0007_specimen_highres_04_dent.png",
+    "safe_url": "/reference_images/ref_dent_021.png",
+    "embedding_index": 21
+  },
+  {
+    "id": "ref_dent_022",
+    "filename": "pytorch_dent_0028_pytorch_dent_000.png",
+    "image": "ref_dent_022.png",
+    "class": "dent",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dent/pytorch_dent_0028_pytorch_dent_000.png",
+    "safe_url": "/reference_images/ref_dent_022.png",
+    "embedding_index": 22
+  },
+  {
+    "id": "ref_dent_023",
+    "filename": "pytorch_dent_0029_pytorch_dent_001.png",
+    "image": "ref_dent_023.png",
+    "class": "dent",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dent/pytorch_dent_0029_pytorch_dent_001.png",
+    "safe_url": "/reference_images/ref_dent_023.png",
+    "embedding_index": 23
+  },
+  {
+    "id": "ref_dent_024",
+    "filename": "pytorch_dent_0030_pytorch_dent_002.png",
+    "image": "ref_dent_024.png",
+    "class": "dent",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dent/pytorch_dent_0030_pytorch_dent_002.png",
+    "safe_url": "/reference_images/ref_dent_024.png",
+    "embedding_index": 24
+  },
+  {
+    "id": "ref_dent_025",
+    "filename": "pytorch_dent_0031_pytorch_dent_003.png",
+    "image": "ref_dent_025.png",
+    "class": "dent",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dent/pytorch_dent_0031_pytorch_dent_003.png",
+    "safe_url": "/reference_images/ref_dent_025.png",
+    "embedding_index": 25
+  },
+  {
+    "id": "ref_dent_026",
+    "filename": "pytorch_dent_0032_pytorch_dent_004.png",
+    "image": "ref_dent_026.png",
+    "class": "dent",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dent/pytorch_dent_0032_pytorch_dent_004.png",
+    "safe_url": "/reference_images/ref_dent_026.png",
+    "embedding_index": 26
+  },
+  {
+    "id": "ref_dent_027",
+    "filename": "pytorch_dent_0033_pytorch_dent_005.png",
+    "image": "ref_dent_027.png",
+    "class": "dent",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dent/pytorch_dent_0033_pytorch_dent_005.png",
+    "safe_url": "/reference_images/ref_dent_027.png",
+    "embedding_index": 27
+  },
+  {
+    "id": "ref_dent_028",
+    "filename": "pytorch_dent_0034_pytorch_dent_006.png",
+    "image": "ref_dent_028.png",
+    "class": "dent",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dent/pytorch_dent_0034_pytorch_dent_006.png",
+    "safe_url": "/reference_images/ref_dent_028.png",
+    "embedding_index": 28
+  },
+  {
+    "id": "ref_dent_029",
+    "filename": "pytorch_dent_0035_pytorch_dent_007.png",
+    "image": "ref_dent_029.png",
+    "class": "dent",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dent/pytorch_dent_0035_pytorch_dent_007.png",
+    "safe_url": "/reference_images/ref_dent_029.png",
+    "embedding_index": 29
+  },
+  {
+    "id": "ref_dent_030",
+    "filename": "pytorch_dent_0036_pytorch_dent_008.png",
+    "image": "ref_dent_030.png",
+    "class": "dent",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dent/pytorch_dent_0036_pytorch_dent_008.png",
+    "safe_url": "/reference_images/ref_dent_030.png",
+    "embedding_index": 30
+  },
+  {
+    "id": "ref_dent_031",
+    "filename": "pytorch_dent_0038_pytorch_dent_010.png",
+    "image": "ref_dent_031.png",
+    "class": "dent",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dent/pytorch_dent_0038_pytorch_dent_010.png",
+    "safe_url": "/reference_images/ref_dent_031.png",
+    "embedding_index": 31
+  },
+  {
+    "id": "ref_dent_032",
+    "filename": "pytorch_dent_0039_pytorch_dent_011.png",
+    "image": "ref_dent_032.png",
+    "class": "dent",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dent/pytorch_dent_0039_pytorch_dent_011.png",
+    "safe_url": "/reference_images/ref_dent_032.png",
+    "embedding_index": 32
+  },
+  {
+    "id": "ref_dent_033",
+    "filename": "pytorch_dent_0040_pytorch_dent_012.png",
+    "image": "ref_dent_033.png",
+    "class": "dent",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dent/pytorch_dent_0040_pytorch_dent_012.png",
+    "safe_url": "/reference_images/ref_dent_033.png",
+    "embedding_index": 33
+  },
+  {
+    "id": "ref_dent_034",
+    "filename": "pytorch_dent_0041_pytorch_dent_013.png",
+    "image": "ref_dent_034.png",
+    "class": "dent",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dent/pytorch_dent_0041_pytorch_dent_013.png",
+    "safe_url": "/reference_images/ref_dent_034.png",
+    "embedding_index": 34
+  },
+  {
+    "id": "ref_dent_035",
+    "filename": "pytorch_dent_0115_pytorch_dent_014.png",
+    "image": "ref_dent_035.png",
+    "class": "dent",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dent/pytorch_dent_0115_pytorch_dent_014.png",
+    "safe_url": "/reference_images/ref_dent_035.png",
+    "embedding_index": 35
+  },
+  {
+    "id": "ref_dent_036",
+    "filename": "pytorch_dent_0117_pytorch_dent_016.png",
+    "image": "ref_dent_036.png",
+    "class": "dent",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dent/pytorch_dent_0117_pytorch_dent_016.png",
+    "safe_url": "/reference_images/ref_dent_036.png",
+    "embedding_index": 36
+  },
+  {
+    "id": "ref_dent_037",
+    "filename": "pytorch_dent_0136_pytorch_dent_017.png",
+    "image": "ref_dent_037.png",
+    "class": "dent",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dent/pytorch_dent_0136_pytorch_dent_017.png",
+    "safe_url": "/reference_images/ref_dent_037.png",
+    "embedding_index": 37
+  },
+  {
+    "id": "ref_dent_038",
+    "filename": "pytorch_dent_0137_pytorch_dent_018.png",
+    "image": "ref_dent_038.png",
+    "class": "dent",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dent/pytorch_dent_0137_pytorch_dent_018.png",
+    "safe_url": "/reference_images/ref_dent_038.png",
+    "embedding_index": 38
+  },
+  {
+    "id": "ref_dimensional_irregularity_039",
+    "filename": "keras_dimensional_irregularity_0012_specimen_06_dimensional_irregularity.png",
+    "image": "ref_dimensional_irregularity_039.png",
+    "class": "dimensional_irregularity",
+    "dataset_source": "keras_dataset",
+    "image_path": "data/unified_keras_dataset/dimensional_irregularity/keras_dimensional_irregularity_0012_specimen_06_dimensional_irregularity.png",
+    "safe_url": "/reference_images/ref_dimensional_irregularity_039.png",
+    "embedding_index": 39
+  },
+  {
+    "id": "ref_dimensional_irregularity_040",
+    "filename": "keras_dimensional_irregularity_0013_specimen_highres_06_dimensional_irregularity.png",
+    "image": "ref_dimensional_irregularity_040.png",
+    "class": "dimensional_irregularity",
+    "dataset_source": "keras_dataset",
+    "image_path": "data/unified_keras_dataset/dimensional_irregularity/keras_dimensional_irregularity_0013_specimen_highres_06_dimensional_irregularity.png",
+    "safe_url": "/reference_images/ref_dimensional_irregularity_040.png",
+    "embedding_index": 40
+  },
+  {
+    "id": "ref_dimensional_irregularity_041",
+    "filename": "pytorch_dimensional_irregularity_0042_pytorch_dimensional_irregularity_000.png",
+    "image": "ref_dimensional_irregularity_041.png",
+    "class": "dimensional_irregularity",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dimensional_irregularity/pytorch_dimensional_irregularity_0042_pytorch_dimensional_irregularity_000.png",
+    "safe_url": "/reference_images/ref_dimensional_irregularity_041.png",
+    "embedding_index": 41
+  },
+  {
+    "id": "ref_dimensional_irregularity_042",
+    "filename": "pytorch_dimensional_irregularity_0043_pytorch_dimensional_irregularity_001.png",
+    "image": "ref_dimensional_irregularity_042.png",
+    "class": "dimensional_irregularity",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dimensional_irregularity/pytorch_dimensional_irregularity_0043_pytorch_dimensional_irregularity_001.png",
+    "safe_url": "/reference_images/ref_dimensional_irregularity_042.png",
+    "embedding_index": 42
+  },
+  {
+    "id": "ref_dimensional_irregularity_043",
+    "filename": "pytorch_dimensional_irregularity_0044_pytorch_dimensional_irregularity_002.png",
+    "image": "ref_dimensional_irregularity_043.png",
+    "class": "dimensional_irregularity",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dimensional_irregularity/pytorch_dimensional_irregularity_0044_pytorch_dimensional_irregularity_002.png",
+    "safe_url": "/reference_images/ref_dimensional_irregularity_043.png",
+    "embedding_index": 43
+  },
+  {
+    "id": "ref_dimensional_irregularity_044",
+    "filename": "pytorch_dimensional_irregularity_0045_pytorch_dimensional_irregularity_003.png",
+    "image": "ref_dimensional_irregularity_044.png",
+    "class": "dimensional_irregularity",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dimensional_irregularity/pytorch_dimensional_irregularity_0045_pytorch_dimensional_irregularity_003.png",
+    "safe_url": "/reference_images/ref_dimensional_irregularity_044.png",
+    "embedding_index": 44
+  },
+  {
+    "id": "ref_dimensional_irregularity_045",
+    "filename": "pytorch_dimensional_irregularity_0046_pytorch_dimensional_irregularity_004.png",
+    "image": "ref_dimensional_irregularity_045.png",
+    "class": "dimensional_irregularity",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dimensional_irregularity/pytorch_dimensional_irregularity_0046_pytorch_dimensional_irregularity_004.png",
+    "safe_url": "/reference_images/ref_dimensional_irregularity_045.png",
+    "embedding_index": 45
+  },
+  {
+    "id": "ref_dimensional_irregularity_046",
+    "filename": "pytorch_dimensional_irregularity_0047_pytorch_dimensional_irregularity_005.png",
+    "image": "ref_dimensional_irregularity_046.png",
+    "class": "dimensional_irregularity",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dimensional_irregularity/pytorch_dimensional_irregularity_0047_pytorch_dimensional_irregularity_005.png",
+    "safe_url": "/reference_images/ref_dimensional_irregularity_046.png",
+    "embedding_index": 46
+  },
+  {
+    "id": "ref_dimensional_irregularity_047",
+    "filename": "pytorch_dimensional_irregularity_0049_pytorch_dimensional_irregularity_007.png",
+    "image": "ref_dimensional_irregularity_047.png",
+    "class": "dimensional_irregularity",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dimensional_irregularity/pytorch_dimensional_irregularity_0049_pytorch_dimensional_irregularity_007.png",
+    "safe_url": "/reference_images/ref_dimensional_irregularity_047.png",
+    "embedding_index": 47
+  },
+  {
+    "id": "ref_dimensional_irregularity_048",
+    "filename": "pytorch_dimensional_irregularity_0050_pytorch_dimensional_irregularity_008.png",
+    "image": "ref_dimensional_irregularity_048.png",
+    "class": "dimensional_irregularity",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dimensional_irregularity/pytorch_dimensional_irregularity_0050_pytorch_dimensional_irregularity_008.png",
+    "safe_url": "/reference_images/ref_dimensional_irregularity_048.png",
+    "embedding_index": 48
+  },
+  {
+    "id": "ref_dimensional_irregularity_049",
+    "filename": "pytorch_dimensional_irregularity_0051_pytorch_dimensional_irregularity_009.png",
+    "image": "ref_dimensional_irregularity_049.png",
+    "class": "dimensional_irregularity",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dimensional_irregularity/pytorch_dimensional_irregularity_0051_pytorch_dimensional_irregularity_009.png",
+    "safe_url": "/reference_images/ref_dimensional_irregularity_049.png",
+    "embedding_index": 49
+  },
+  {
+    "id": "ref_dimensional_irregularity_050",
+    "filename": "pytorch_dimensional_irregularity_0052_pytorch_dimensional_irregularity_010.png",
+    "image": "ref_dimensional_irregularity_050.png",
+    "class": "dimensional_irregularity",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dimensional_irregularity/pytorch_dimensional_irregularity_0052_pytorch_dimensional_irregularity_010.png",
+    "safe_url": "/reference_images/ref_dimensional_irregularity_050.png",
+    "embedding_index": 50
+  },
+  {
+    "id": "ref_dimensional_irregularity_051",
+    "filename": "pytorch_dimensional_irregularity_0053_pytorch_dimensional_irregularity_011.png",
+    "image": "ref_dimensional_irregularity_051.png",
+    "class": "dimensional_irregularity",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dimensional_irregularity/pytorch_dimensional_irregularity_0053_pytorch_dimensional_irregularity_011.png",
+    "safe_url": "/reference_images/ref_dimensional_irregularity_051.png",
+    "embedding_index": 51
+  },
+  {
+    "id": "ref_dimensional_irregularity_052",
+    "filename": "pytorch_dimensional_irregularity_0055_pytorch_dimensional_irregularity_013.png",
+    "image": "ref_dimensional_irregularity_052.png",
+    "class": "dimensional_irregularity",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dimensional_irregularity/pytorch_dimensional_irregularity_0055_pytorch_dimensional_irregularity_013.png",
+    "safe_url": "/reference_images/ref_dimensional_irregularity_052.png",
+    "embedding_index": 52
+  },
+  {
+    "id": "ref_dimensional_irregularity_053",
+    "filename": "pytorch_dimensional_irregularity_0118_pytorch_dimensional_irregularity_014.png",
+    "image": "ref_dimensional_irregularity_053.png",
+    "class": "dimensional_irregularity",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dimensional_irregularity/pytorch_dimensional_irregularity_0118_pytorch_dimensional_irregularity_014.png",
+    "safe_url": "/reference_images/ref_dimensional_irregularity_053.png",
+    "embedding_index": 53
+  },
+  {
+    "id": "ref_dimensional_irregularity_054",
+    "filename": "pytorch_dimensional_irregularity_0119_pytorch_dimensional_irregularity_015.png",
+    "image": "ref_dimensional_irregularity_054.png",
+    "class": "dimensional_irregularity",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dimensional_irregularity/pytorch_dimensional_irregularity_0119_pytorch_dimensional_irregularity_015.png",
+    "safe_url": "/reference_images/ref_dimensional_irregularity_054.png",
+    "embedding_index": 54
+  },
+  {
+    "id": "ref_dimensional_irregularity_055",
+    "filename": "pytorch_dimensional_irregularity_0120_pytorch_dimensional_irregularity_016.png",
+    "image": "ref_dimensional_irregularity_055.png",
+    "class": "dimensional_irregularity",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dimensional_irregularity/pytorch_dimensional_irregularity_0120_pytorch_dimensional_irregularity_016.png",
+    "safe_url": "/reference_images/ref_dimensional_irregularity_055.png",
+    "embedding_index": 55
+  },
+  {
+    "id": "ref_dimensional_irregularity_056",
+    "filename": "pytorch_dimensional_irregularity_0139_pytorch_dimensional_irregularity_017.png",
+    "image": "ref_dimensional_irregularity_056.png",
+    "class": "dimensional_irregularity",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dimensional_irregularity/pytorch_dimensional_irregularity_0139_pytorch_dimensional_irregularity_017.png",
+    "safe_url": "/reference_images/ref_dimensional_irregularity_056.png",
+    "embedding_index": 56
+  },
+  {
+    "id": "ref_dimensional_irregularity_057",
+    "filename": "pytorch_dimensional_irregularity_0140_pytorch_dimensional_irregularity_018.png",
+    "image": "ref_dimensional_irregularity_057.png",
+    "class": "dimensional_irregularity",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dimensional_irregularity/pytorch_dimensional_irregularity_0140_pytorch_dimensional_irregularity_018.png",
+    "safe_url": "/reference_images/ref_dimensional_irregularity_057.png",
+    "embedding_index": 57
+  },
+  {
+    "id": "ref_dimensional_irregularity_058",
+    "filename": "pytorch_dimensional_irregularity_0141_pytorch_dimensional_irregularity_019.png",
+    "image": "ref_dimensional_irregularity_058.png",
+    "class": "dimensional_irregularity",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/dimensional_irregularity/pytorch_dimensional_irregularity_0141_pytorch_dimensional_irregularity_019.png",
+    "safe_url": "/reference_images/ref_dimensional_irregularity_058.png",
+    "embedding_index": 58
+  },
+  {
+    "id": "ref_discoloration_059",
+    "filename": "keras_discoloration_0010_specimen_05_discoloration.png",
+    "image": "ref_discoloration_059.png",
+    "class": "discoloration",
+    "dataset_source": "keras_dataset",
+    "image_path": "data/unified_keras_dataset/discoloration/keras_discoloration_0010_specimen_05_discoloration.png",
+    "safe_url": "/reference_images/ref_discoloration_059.png",
+    "embedding_index": 59
+  },
+  {
+    "id": "ref_discoloration_060",
+    "filename": "keras_discoloration_0011_specimen_highres_05_discoloration.png",
+    "image": "ref_discoloration_060.png",
+    "class": "discoloration",
+    "dataset_source": "keras_dataset",
+    "image_path": "data/unified_keras_dataset/discoloration/keras_discoloration_0011_specimen_highres_05_discoloration.png",
+    "safe_url": "/reference_images/ref_discoloration_060.png",
+    "embedding_index": 60
+  },
+  {
+    "id": "ref_discoloration_061",
+    "filename": "pytorch_discoloration_0056_pytorch_discoloration_000.png",
+    "image": "ref_discoloration_061.png",
+    "class": "discoloration",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/discoloration/pytorch_discoloration_0056_pytorch_discoloration_000.png",
+    "safe_url": "/reference_images/ref_discoloration_061.png",
+    "embedding_index": 61
+  },
+  {
+    "id": "ref_discoloration_062",
+    "filename": "pytorch_discoloration_0057_pytorch_discoloration_001.png",
+    "image": "ref_discoloration_062.png",
+    "class": "discoloration",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/discoloration/pytorch_discoloration_0057_pytorch_discoloration_001.png",
+    "safe_url": "/reference_images/ref_discoloration_062.png",
+    "embedding_index": 62
+  },
+  {
+    "id": "ref_discoloration_063",
+    "filename": "pytorch_discoloration_0058_pytorch_discoloration_002.png",
+    "image": "ref_discoloration_063.png",
+    "class": "discoloration",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/discoloration/pytorch_discoloration_0058_pytorch_discoloration_002.png",
+    "safe_url": "/reference_images/ref_discoloration_063.png",
+    "embedding_index": 63
+  },
+  {
+    "id": "ref_discoloration_064",
+    "filename": "pytorch_discoloration_0059_pytorch_discoloration_003.png",
+    "image": "ref_discoloration_064.png",
+    "class": "discoloration",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/discoloration/pytorch_discoloration_0059_pytorch_discoloration_003.png",
+    "safe_url": "/reference_images/ref_discoloration_064.png",
+    "embedding_index": 64
+  },
+  {
+    "id": "ref_discoloration_065",
+    "filename": "pytorch_discoloration_0060_pytorch_discoloration_004.png",
+    "image": "ref_discoloration_065.png",
+    "class": "discoloration",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/discoloration/pytorch_discoloration_0060_pytorch_discoloration_004.png",
+    "safe_url": "/reference_images/ref_discoloration_065.png",
+    "embedding_index": 65
+  },
+  {
+    "id": "ref_discoloration_066",
+    "filename": "pytorch_discoloration_0061_pytorch_discoloration_005.png",
+    "image": "ref_discoloration_066.png",
+    "class": "discoloration",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/discoloration/pytorch_discoloration_0061_pytorch_discoloration_005.png",
+    "safe_url": "/reference_images/ref_discoloration_066.png",
+    "embedding_index": 66
+  },
+  {
+    "id": "ref_discoloration_067",
+    "filename": "pytorch_discoloration_0063_pytorch_discoloration_007.png",
+    "image": "ref_discoloration_067.png",
+    "class": "discoloration",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/discoloration/pytorch_discoloration_0063_pytorch_discoloration_007.png",
+    "safe_url": "/reference_images/ref_discoloration_067.png",
+    "embedding_index": 67
+  },
+  {
+    "id": "ref_discoloration_068",
+    "filename": "pytorch_discoloration_0064_pytorch_discoloration_008.png",
+    "image": "ref_discoloration_068.png",
+    "class": "discoloration",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/discoloration/pytorch_discoloration_0064_pytorch_discoloration_008.png",
+    "safe_url": "/reference_images/ref_discoloration_068.png",
+    "embedding_index": 68
+  },
+  {
+    "id": "ref_discoloration_069",
+    "filename": "pytorch_discoloration_0065_pytorch_discoloration_009.png",
+    "image": "ref_discoloration_069.png",
+    "class": "discoloration",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/discoloration/pytorch_discoloration_0065_pytorch_discoloration_009.png",
+    "safe_url": "/reference_images/ref_discoloration_069.png",
+    "embedding_index": 69
+  },
+  {
+    "id": "ref_discoloration_070",
+    "filename": "pytorch_discoloration_0066_pytorch_discoloration_010.png",
+    "image": "ref_discoloration_070.png",
+    "class": "discoloration",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/discoloration/pytorch_discoloration_0066_pytorch_discoloration_010.png",
+    "safe_url": "/reference_images/ref_discoloration_070.png",
+    "embedding_index": 70
+  },
+  {
+    "id": "ref_discoloration_071",
+    "filename": "pytorch_discoloration_0067_pytorch_discoloration_011.png",
+    "image": "ref_discoloration_071.png",
+    "class": "discoloration",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/discoloration/pytorch_discoloration_0067_pytorch_discoloration_011.png",
+    "safe_url": "/reference_images/ref_discoloration_071.png",
+    "embedding_index": 71
+  },
+  {
+    "id": "ref_discoloration_072",
+    "filename": "pytorch_discoloration_0068_pytorch_discoloration_012.png",
+    "image": "ref_discoloration_072.png",
+    "class": "discoloration",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/discoloration/pytorch_discoloration_0068_pytorch_discoloration_012.png",
+    "safe_url": "/reference_images/ref_discoloration_072.png",
+    "embedding_index": 72
+  },
+  {
+    "id": "ref_discoloration_073",
+    "filename": "pytorch_discoloration_0069_pytorch_discoloration_013.png",
+    "image": "ref_discoloration_073.png",
+    "class": "discoloration",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/discoloration/pytorch_discoloration_0069_pytorch_discoloration_013.png",
+    "safe_url": "/reference_images/ref_discoloration_073.png",
+    "embedding_index": 73
+  },
+  {
+    "id": "ref_discoloration_074",
+    "filename": "pytorch_discoloration_0121_pytorch_discoloration_014.png",
+    "image": "ref_discoloration_074.png",
+    "class": "discoloration",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/discoloration/pytorch_discoloration_0121_pytorch_discoloration_014.png",
+    "safe_url": "/reference_images/ref_discoloration_074.png",
+    "embedding_index": 74
+  },
+  {
+    "id": "ref_discoloration_075",
+    "filename": "pytorch_discoloration_0122_pytorch_discoloration_015.png",
+    "image": "ref_discoloration_075.png",
+    "class": "discoloration",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/discoloration/pytorch_discoloration_0122_pytorch_discoloration_015.png",
+    "safe_url": "/reference_images/ref_discoloration_075.png",
+    "embedding_index": 75
+  },
+  {
+    "id": "ref_discoloration_076",
+    "filename": "pytorch_discoloration_0142_pytorch_discoloration_017.png",
+    "image": "ref_discoloration_076.png",
+    "class": "discoloration",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/discoloration/pytorch_discoloration_0142_pytorch_discoloration_017.png",
+    "safe_url": "/reference_images/ref_discoloration_076.png",
+    "embedding_index": 76
+  },
+  {
+    "id": "ref_discoloration_077",
+    "filename": "pytorch_discoloration_0143_pytorch_discoloration_018.png",
+    "image": "ref_discoloration_077.png",
+    "class": "discoloration",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/discoloration/pytorch_discoloration_0143_pytorch_discoloration_018.png",
+    "safe_url": "/reference_images/ref_discoloration_077.png",
+    "embedding_index": 77
+  },
+  {
+    "id": "ref_discoloration_078",
+    "filename": "pytorch_discoloration_0144_pytorch_discoloration_019.png",
+    "image": "ref_discoloration_078.png",
+    "class": "discoloration",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/discoloration/pytorch_discoloration_0144_pytorch_discoloration_019.png",
+    "safe_url": "/reference_images/ref_discoloration_078.png",
+    "embedding_index": 78
+  },
+  {
+    "id": "ref_normal_079",
+    "filename": "keras_normal_0000_specimen_00_normal.png",
+    "image": "ref_normal_079.png",
+    "class": "normal",
+    "dataset_source": "keras_dataset",
+    "image_path": "data/unified_keras_dataset/normal/keras_normal_0000_specimen_00_normal.png",
+    "safe_url": "/reference_images/ref_normal_079.png",
+    "embedding_index": 79
+  },
+  {
+    "id": "ref_normal_080",
+    "filename": "pytorch_normal_0070_pytorch_normal_000.png",
+    "image": "ref_normal_080.png",
+    "class": "normal",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/normal/pytorch_normal_0070_pytorch_normal_000.png",
+    "safe_url": "/reference_images/ref_normal_080.png",
+    "embedding_index": 80
+  },
+  {
+    "id": "ref_normal_081",
+    "filename": "pytorch_normal_0071_pytorch_normal_001.png",
+    "image": "ref_normal_081.png",
+    "class": "normal",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/normal/pytorch_normal_0071_pytorch_normal_001.png",
+    "safe_url": "/reference_images/ref_normal_081.png",
+    "embedding_index": 81
+  },
+  {
+    "id": "ref_normal_082",
+    "filename": "pytorch_normal_0072_pytorch_normal_002.png",
+    "image": "ref_normal_082.png",
+    "class": "normal",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/normal/pytorch_normal_0072_pytorch_normal_002.png",
+    "safe_url": "/reference_images/ref_normal_082.png",
+    "embedding_index": 82
+  },
+  {
+    "id": "ref_normal_083",
+    "filename": "pytorch_normal_0073_pytorch_normal_003.png",
+    "image": "ref_normal_083.png",
+    "class": "normal",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/normal/pytorch_normal_0073_pytorch_normal_003.png",
+    "safe_url": "/reference_images/ref_normal_083.png",
+    "embedding_index": 83
+  },
+  {
+    "id": "ref_normal_084",
+    "filename": "pytorch_normal_0074_pytorch_normal_004.png",
+    "image": "ref_normal_084.png",
+    "class": "normal",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/normal/pytorch_normal_0074_pytorch_normal_004.png",
+    "safe_url": "/reference_images/ref_normal_084.png",
+    "embedding_index": 84
+  },
+  {
+    "id": "ref_normal_085",
+    "filename": "pytorch_normal_0075_pytorch_normal_005.png",
+    "image": "ref_normal_085.png",
+    "class": "normal",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/normal/pytorch_normal_0075_pytorch_normal_005.png",
+    "safe_url": "/reference_images/ref_normal_085.png",
+    "embedding_index": 85
+  },
+  {
+    "id": "ref_normal_086",
+    "filename": "pytorch_normal_0076_pytorch_normal_006.png",
+    "image": "ref_normal_086.png",
+    "class": "normal",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/normal/pytorch_normal_0076_pytorch_normal_006.png",
+    "safe_url": "/reference_images/ref_normal_086.png",
+    "embedding_index": 86
+  },
+  {
+    "id": "ref_normal_087",
+    "filename": "pytorch_normal_0077_pytorch_normal_007.png",
+    "image": "ref_normal_087.png",
+    "class": "normal",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/normal/pytorch_normal_0077_pytorch_normal_007.png",
+    "safe_url": "/reference_images/ref_normal_087.png",
+    "embedding_index": 87
+  },
+  {
+    "id": "ref_normal_088",
+    "filename": "pytorch_normal_0078_pytorch_normal_008.png",
+    "image": "ref_normal_088.png",
+    "class": "normal",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/normal/pytorch_normal_0078_pytorch_normal_008.png",
+    "safe_url": "/reference_images/ref_normal_088.png",
+    "embedding_index": 88
+  },
+  {
+    "id": "ref_normal_089",
+    "filename": "pytorch_normal_0079_pytorch_normal_009.png",
+    "image": "ref_normal_089.png",
+    "class": "normal",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/normal/pytorch_normal_0079_pytorch_normal_009.png",
+    "safe_url": "/reference_images/ref_normal_089.png",
+    "embedding_index": 89
+  },
+  {
+    "id": "ref_normal_090",
+    "filename": "pytorch_normal_0080_pytorch_normal_010.png",
+    "image": "ref_normal_090.png",
+    "class": "normal",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/normal/pytorch_normal_0080_pytorch_normal_010.png",
+    "safe_url": "/reference_images/ref_normal_090.png",
+    "embedding_index": 90
+  },
+  {
+    "id": "ref_normal_091",
+    "filename": "pytorch_normal_0081_pytorch_normal_011.png",
+    "image": "ref_normal_091.png",
+    "class": "normal",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/normal/pytorch_normal_0081_pytorch_normal_011.png",
+    "safe_url": "/reference_images/ref_normal_091.png",
+    "embedding_index": 91
+  },
+  {
+    "id": "ref_normal_092",
+    "filename": "pytorch_normal_0082_pytorch_normal_012.png",
+    "image": "ref_normal_092.png",
+    "class": "normal",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/normal/pytorch_normal_0082_pytorch_normal_012.png",
+    "safe_url": "/reference_images/ref_normal_092.png",
+    "embedding_index": 92
+  },
+  {
+    "id": "ref_normal_093",
+    "filename": "pytorch_normal_0083_pytorch_normal_013.png",
+    "image": "ref_normal_093.png",
+    "class": "normal",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/normal/pytorch_normal_0083_pytorch_normal_013.png",
+    "safe_url": "/reference_images/ref_normal_093.png",
+    "embedding_index": 93
+  },
+  {
+    "id": "ref_normal_094",
+    "filename": "pytorch_normal_0124_pytorch_normal_014.png",
+    "image": "ref_normal_094.png",
+    "class": "normal",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/normal/pytorch_normal_0124_pytorch_normal_014.png",
+    "safe_url": "/reference_images/ref_normal_094.png",
+    "embedding_index": 94
+  },
+  {
+    "id": "ref_normal_095",
+    "filename": "pytorch_normal_0125_pytorch_normal_015.png",
+    "image": "ref_normal_095.png",
+    "class": "normal",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/normal/pytorch_normal_0125_pytorch_normal_015.png",
+    "safe_url": "/reference_images/ref_normal_095.png",
+    "embedding_index": 95
+  },
+  {
+    "id": "ref_normal_096",
+    "filename": "pytorch_normal_0126_pytorch_normal_016.png",
+    "image": "ref_normal_096.png",
+    "class": "normal",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/normal/pytorch_normal_0126_pytorch_normal_016.png",
+    "safe_url": "/reference_images/ref_normal_096.png",
+    "embedding_index": 96
+  },
+  {
+    "id": "ref_normal_097",
+    "filename": "pytorch_normal_0145_pytorch_normal_017.png",
+    "image": "ref_normal_097.png",
+    "class": "normal",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/normal/pytorch_normal_0145_pytorch_normal_017.png",
+    "safe_url": "/reference_images/ref_normal_097.png",
+    "embedding_index": 97
+  },
+  {
+    "id": "ref_normal_098",
+    "filename": "pytorch_normal_0146_pytorch_normal_018.png",
+    "image": "ref_normal_098.png",
+    "class": "normal",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/normal/pytorch_normal_0146_pytorch_normal_018.png",
+    "safe_url": "/reference_images/ref_normal_098.png",
+    "embedding_index": 98
+  },
+  {
+    "id": "ref_normal_099",
+    "filename": "pytorch_normal_0147_pytorch_normal_019.png",
+    "image": "ref_normal_099.png",
+    "class": "normal",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/normal/pytorch_normal_0147_pytorch_normal_019.png",
+    "safe_url": "/reference_images/ref_normal_099.png",
+    "embedding_index": 99
+  },
+  {
+    "id": "ref_scratch_100",
+    "filename": "keras_scratch_0005_specimen_highres_02_scratch.png",
+    "image": "ref_scratch_100.png",
+    "class": "scratch",
+    "dataset_source": "keras_dataset",
+    "image_path": "data/unified_keras_dataset/scratch/keras_scratch_0005_specimen_highres_02_scratch.png",
+    "safe_url": "/reference_images/ref_scratch_100.png",
+    "embedding_index": 100
+  },
+  {
+    "id": "ref_scratch_101",
+    "filename": "pytorch_scratch_0084_pytorch_scratch_000.png",
+    "image": "ref_scratch_101.png",
+    "class": "scratch",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/scratch/pytorch_scratch_0084_pytorch_scratch_000.png",
+    "safe_url": "/reference_images/ref_scratch_101.png",
+    "embedding_index": 101
+  },
+  {
+    "id": "ref_scratch_102",
+    "filename": "pytorch_scratch_0086_pytorch_scratch_002.png",
+    "image": "ref_scratch_102.png",
+    "class": "scratch",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/scratch/pytorch_scratch_0086_pytorch_scratch_002.png",
+    "safe_url": "/reference_images/ref_scratch_102.png",
+    "embedding_index": 102
+  },
+  {
+    "id": "ref_scratch_103",
+    "filename": "pytorch_scratch_0087_pytorch_scratch_003.png",
+    "image": "ref_scratch_103.png",
+    "class": "scratch",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/scratch/pytorch_scratch_0087_pytorch_scratch_003.png",
+    "safe_url": "/reference_images/ref_scratch_103.png",
+    "embedding_index": 103
+  },
+  {
+    "id": "ref_scratch_104",
+    "filename": "pytorch_scratch_0088_pytorch_scratch_004.png",
+    "image": "ref_scratch_104.png",
+    "class": "scratch",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/scratch/pytorch_scratch_0088_pytorch_scratch_004.png",
+    "safe_url": "/reference_images/ref_scratch_104.png",
+    "embedding_index": 104
+  },
+  {
+    "id": "ref_scratch_105",
+    "filename": "pytorch_scratch_0089_pytorch_scratch_005.png",
+    "image": "ref_scratch_105.png",
+    "class": "scratch",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/scratch/pytorch_scratch_0089_pytorch_scratch_005.png",
+    "safe_url": "/reference_images/ref_scratch_105.png",
+    "embedding_index": 105
+  },
+  {
+    "id": "ref_scratch_106",
+    "filename": "pytorch_scratch_0090_pytorch_scratch_006.png",
+    "image": "ref_scratch_106.png",
+    "class": "scratch",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/scratch/pytorch_scratch_0090_pytorch_scratch_006.png",
+    "safe_url": "/reference_images/ref_scratch_106.png",
+    "embedding_index": 106
+  },
+  {
+    "id": "ref_scratch_107",
+    "filename": "pytorch_scratch_0091_pytorch_scratch_007.png",
+    "image": "ref_scratch_107.png",
+    "class": "scratch",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/scratch/pytorch_scratch_0091_pytorch_scratch_007.png",
+    "safe_url": "/reference_images/ref_scratch_107.png",
+    "embedding_index": 107
+  },
+  {
+    "id": "ref_scratch_108",
+    "filename": "pytorch_scratch_0092_pytorch_scratch_008.png",
+    "image": "ref_scratch_108.png",
+    "class": "scratch",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/scratch/pytorch_scratch_0092_pytorch_scratch_008.png",
+    "safe_url": "/reference_images/ref_scratch_108.png",
+    "embedding_index": 108
+  },
+  {
+    "id": "ref_scratch_109",
+    "filename": "pytorch_scratch_0093_pytorch_scratch_009.png",
+    "image": "ref_scratch_109.png",
+    "class": "scratch",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/scratch/pytorch_scratch_0093_pytorch_scratch_009.png",
+    "safe_url": "/reference_images/ref_scratch_109.png",
+    "embedding_index": 109
+  },
+  {
+    "id": "ref_scratch_110",
+    "filename": "pytorch_scratch_0094_pytorch_scratch_010.png",
+    "image": "ref_scratch_110.png",
+    "class": "scratch",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/scratch/pytorch_scratch_0094_pytorch_scratch_010.png",
+    "safe_url": "/reference_images/ref_scratch_110.png",
+    "embedding_index": 110
+  },
+  {
+    "id": "ref_scratch_111",
+    "filename": "pytorch_scratch_0095_pytorch_scratch_011.png",
+    "image": "ref_scratch_111.png",
+    "class": "scratch",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/scratch/pytorch_scratch_0095_pytorch_scratch_011.png",
+    "safe_url": "/reference_images/ref_scratch_111.png",
+    "embedding_index": 111
+  },
+  {
+    "id": "ref_scratch_112",
+    "filename": "pytorch_scratch_0096_pytorch_scratch_012.png",
+    "image": "ref_scratch_112.png",
+    "class": "scratch",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/scratch/pytorch_scratch_0096_pytorch_scratch_012.png",
+    "safe_url": "/reference_images/ref_scratch_112.png",
+    "embedding_index": 112
+  },
+  {
+    "id": "ref_scratch_113",
+    "filename": "pytorch_scratch_0127_pytorch_scratch_014.png",
+    "image": "ref_scratch_113.png",
+    "class": "scratch",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/scratch/pytorch_scratch_0127_pytorch_scratch_014.png",
+    "safe_url": "/reference_images/ref_scratch_113.png",
+    "embedding_index": 113
+  },
+  {
+    "id": "ref_scratch_114",
+    "filename": "pytorch_scratch_0128_pytorch_scratch_015.png",
+    "image": "ref_scratch_114.png",
+    "class": "scratch",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/scratch/pytorch_scratch_0128_pytorch_scratch_015.png",
+    "safe_url": "/reference_images/ref_scratch_114.png",
+    "embedding_index": 114
+  },
+  {
+    "id": "ref_scratch_115",
+    "filename": "pytorch_scratch_0129_pytorch_scratch_016.png",
+    "image": "ref_scratch_115.png",
+    "class": "scratch",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/scratch/pytorch_scratch_0129_pytorch_scratch_016.png",
+    "safe_url": "/reference_images/ref_scratch_115.png",
+    "embedding_index": 115
+  },
+  {
+    "id": "ref_scratch_116",
+    "filename": "pytorch_scratch_0148_pytorch_scratch_017.png",
+    "image": "ref_scratch_116.png",
+    "class": "scratch",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/scratch/pytorch_scratch_0148_pytorch_scratch_017.png",
+    "safe_url": "/reference_images/ref_scratch_116.png",
+    "embedding_index": 116
+  },
+  {
+    "id": "ref_scratch_117",
+    "filename": "pytorch_scratch_0149_pytorch_scratch_018.png",
+    "image": "ref_scratch_117.png",
+    "class": "scratch",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/scratch/pytorch_scratch_0149_pytorch_scratch_018.png",
+    "safe_url": "/reference_images/ref_scratch_117.png",
+    "embedding_index": 117
+  },
+  {
+    "id": "ref_scratch_118",
+    "filename": "pytorch_scratch_0150_pytorch_scratch_019.png",
+    "image": "ref_scratch_118.png",
+    "class": "scratch",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/scratch/pytorch_scratch_0150_pytorch_scratch_019.png",
+    "safe_url": "/reference_images/ref_scratch_118.png",
+    "embedding_index": 118
+  },
+  {
+    "id": "ref_stain_119",
+    "filename": "keras_stain_0008_specimen_04_stain.png",
+    "image": "ref_stain_119.png",
+    "class": "stain",
+    "dataset_source": "keras_dataset",
+    "image_path": "data/unified_keras_dataset/stain/keras_stain_0008_specimen_04_stain.png",
+    "safe_url": "/reference_images/ref_stain_119.png",
+    "embedding_index": 119
+  },
+  {
+    "id": "ref_stain_120",
+    "filename": "keras_stain_0009_specimen_highres_03_stain.png",
+    "image": "ref_stain_120.png",
+    "class": "stain",
+    "dataset_source": "keras_dataset",
+    "image_path": "data/unified_keras_dataset/stain/keras_stain_0009_specimen_highres_03_stain.png",
+    "safe_url": "/reference_images/ref_stain_120.png",
+    "embedding_index": 120
+  },
+  {
+    "id": "ref_stain_121",
+    "filename": "pytorch_stain_0098_pytorch_stain_000.png",
+    "image": "ref_stain_121.png",
+    "class": "stain",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/stain/pytorch_stain_0098_pytorch_stain_000.png",
+    "safe_url": "/reference_images/ref_stain_121.png",
+    "embedding_index": 121
+  },
+  {
+    "id": "ref_stain_122",
+    "filename": "pytorch_stain_0099_pytorch_stain_001.png",
+    "image": "ref_stain_122.png",
+    "class": "stain",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/stain/pytorch_stain_0099_pytorch_stain_001.png",
+    "safe_url": "/reference_images/ref_stain_122.png",
+    "embedding_index": 122
+  },
+  {
+    "id": "ref_stain_123",
+    "filename": "pytorch_stain_0101_pytorch_stain_003.png",
+    "image": "ref_stain_123.png",
+    "class": "stain",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/stain/pytorch_stain_0101_pytorch_stain_003.png",
+    "safe_url": "/reference_images/ref_stain_123.png",
+    "embedding_index": 123
+  },
+  {
+    "id": "ref_stain_124",
+    "filename": "pytorch_stain_0102_pytorch_stain_004.png",
+    "image": "ref_stain_124.png",
+    "class": "stain",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/stain/pytorch_stain_0102_pytorch_stain_004.png",
+    "safe_url": "/reference_images/ref_stain_124.png",
+    "embedding_index": 124
+  },
+  {
+    "id": "ref_stain_125",
+    "filename": "pytorch_stain_0103_pytorch_stain_005.png",
+    "image": "ref_stain_125.png",
+    "class": "stain",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/stain/pytorch_stain_0103_pytorch_stain_005.png",
+    "safe_url": "/reference_images/ref_stain_125.png",
+    "embedding_index": 125
+  },
+  {
+    "id": "ref_stain_126",
+    "filename": "pytorch_stain_0104_pytorch_stain_006.png",
+    "image": "ref_stain_126.png",
+    "class": "stain",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/stain/pytorch_stain_0104_pytorch_stain_006.png",
+    "safe_url": "/reference_images/ref_stain_126.png",
+    "embedding_index": 126
+  },
+  {
+    "id": "ref_stain_127",
+    "filename": "pytorch_stain_0105_pytorch_stain_007.png",
+    "image": "ref_stain_127.png",
+    "class": "stain",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/stain/pytorch_stain_0105_pytorch_stain_007.png",
+    "safe_url": "/reference_images/ref_stain_127.png",
+    "embedding_index": 127
+  },
+  {
+    "id": "ref_stain_128",
+    "filename": "pytorch_stain_0106_pytorch_stain_008.png",
+    "image": "ref_stain_128.png",
+    "class": "stain",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/stain/pytorch_stain_0106_pytorch_stain_008.png",
+    "safe_url": "/reference_images/ref_stain_128.png",
+    "embedding_index": 128
+  },
+  {
+    "id": "ref_stain_129",
+    "filename": "pytorch_stain_0108_pytorch_stain_010.png",
+    "image": "ref_stain_129.png",
+    "class": "stain",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/stain/pytorch_stain_0108_pytorch_stain_010.png",
+    "safe_url": "/reference_images/ref_stain_129.png",
+    "embedding_index": 129
+  },
+  {
+    "id": "ref_stain_130",
+    "filename": "pytorch_stain_0109_pytorch_stain_011.png",
+    "image": "ref_stain_130.png",
+    "class": "stain",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/stain/pytorch_stain_0109_pytorch_stain_011.png",
+    "safe_url": "/reference_images/ref_stain_130.png",
+    "embedding_index": 130
+  },
+  {
+    "id": "ref_stain_131",
+    "filename": "pytorch_stain_0110_pytorch_stain_012.png",
+    "image": "ref_stain_131.png",
+    "class": "stain",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/stain/pytorch_stain_0110_pytorch_stain_012.png",
+    "safe_url": "/reference_images/ref_stain_131.png",
+    "embedding_index": 131
+  },
+  {
+    "id": "ref_stain_132",
+    "filename": "pytorch_stain_0111_pytorch_stain_013.png",
+    "image": "ref_stain_132.png",
+    "class": "stain",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/stain/pytorch_stain_0111_pytorch_stain_013.png",
+    "safe_url": "/reference_images/ref_stain_132.png",
+    "embedding_index": 132
+  },
+  {
+    "id": "ref_stain_133",
+    "filename": "pytorch_stain_0130_pytorch_stain_014.png",
+    "image": "ref_stain_133.png",
+    "class": "stain",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/stain/pytorch_stain_0130_pytorch_stain_014.png",
+    "safe_url": "/reference_images/ref_stain_133.png",
+    "embedding_index": 133
+  },
+  {
+    "id": "ref_stain_134",
+    "filename": "pytorch_stain_0131_pytorch_stain_015.png",
+    "image": "ref_stain_134.png",
+    "class": "stain",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/stain/pytorch_stain_0131_pytorch_stain_015.png",
+    "safe_url": "/reference_images/ref_stain_134.png",
+    "embedding_index": 134
+  },
+  {
+    "id": "ref_stain_135",
+    "filename": "pytorch_stain_0132_pytorch_stain_016.png",
+    "image": "ref_stain_135.png",
+    "class": "stain",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/stain/pytorch_stain_0132_pytorch_stain_016.png",
+    "safe_url": "/reference_images/ref_stain_135.png",
+    "embedding_index": 135
+  },
+  {
+    "id": "ref_stain_136",
+    "filename": "pytorch_stain_0151_pytorch_stain_017.png",
+    "image": "ref_stain_136.png",
+    "class": "stain",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/stain/pytorch_stain_0151_pytorch_stain_017.png",
+    "safe_url": "/reference_images/ref_stain_136.png",
+    "embedding_index": 136
+  },
+  {
+    "id": "ref_stain_137",
+    "filename": "pytorch_stain_0152_pytorch_stain_018.png",
+    "image": "ref_stain_137.png",
+    "class": "stain",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/stain/pytorch_stain_0152_pytorch_stain_018.png",
+    "safe_url": "/reference_images/ref_stain_137.png",
+    "embedding_index": 137
+  },
+  {
+    "id": "ref_stain_138",
+    "filename": "pytorch_stain_0153_pytorch_stain_019.png",
+    "image": "ref_stain_138.png",
+    "class": "stain",
+    "dataset_source": "pytorch_dataset",
+    "image_path": "data/unified_keras_dataset/stain/pytorch_stain_0153_pytorch_stain_019.png",
+    "safe_url": "/reference_images/ref_stain_138.png",
+    "embedding_index": 138
+  }
+]

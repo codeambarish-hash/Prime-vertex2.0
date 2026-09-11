@@ -9,8 +9,11 @@
  */
 
 import React, { useState } from 'react';
-import { Header } from './components/Header';
+import { Header, TabType } from './components/Header';
+import { DashboardDrawer } from './components/DashboardDrawer';
+import { DashboardOverviewTab } from './components/DashboardOverviewTab';
 import { InspectorTab } from './components/InspectorTab';
+import { KerasInspectionTab } from './components/KerasInspectionTab';
 import { PreprocessingTab } from './components/PreprocessingTab';
 import { DatasetStatsTab } from './components/DatasetStatsTab';
 import { EvaluationTab } from './components/EvaluationTab';
@@ -18,16 +21,53 @@ import { CodeExplorerTab } from './components/CodeExplorerTab';
 import { QuickStartGuideTab } from './components/QuickStartGuideTab';
 
 export default function App() {
-  const [activeTab, setActiveTab] = useState<'inspector' | 'preprocessing' | 'dataset' | 'evaluation' | 'code' | 'guide'>('inspector');
+  const [activeTab, setActiveTab] = useState<TabType>('keras');
+  const [isDashboardDrawerOpen, setIsDashboardDrawerOpen] = useState(false);
+  const [uploadedImageSrc, setUploadedImageSrc] = useState<string | null>(null);
+  const [uploadedFileName, setUploadedFileName] = useState<string | null>(null);
+  const [uploadedFileObj, setUploadedFileObj] = useState<File | null>(null);
+
+  const handleImageUpload = (file: File, dataUrl: string) => {
+    setUploadedFileObj(file);
+    setUploadedFileName(file.name);
+    setUploadedImageSrc(dataUrl);
+    setActiveTab('keras');
+  };
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 flex flex-col font-sans antialiased">
       {/* Top Application Header */}
-      <Header activeTab={activeTab} setActiveTab={setActiveTab} />
+      <Header
+        activeTab={activeTab}
+        setActiveTab={setActiveTab}
+        onOpenDashboard={() => setIsDashboardDrawerOpen(true)}
+        onImageUpload={handleImageUpload}
+      />
+
+      {/* Slide-out Dashboard Drawer from Top-Left */}
+      <DashboardDrawer
+        isOpen={isDashboardDrawerOpen}
+        onClose={() => setIsDashboardDrawerOpen(false)}
+        activeTab={activeTab}
+        setActiveTab={(t) => {
+          setActiveTab(t);
+          setIsDashboardDrawerOpen(false);
+        }}
+      />
 
       {/* Main Content Area */}
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
+        {activeTab === 'dashboard' && (
+          <DashboardOverviewTab setActiveTab={(t) => setActiveTab(t)} />
+        )}
         {activeTab === 'inspector' && <InspectorTab />}
+        {activeTab === 'keras' && (
+          <KerasInspectionTab
+            initialFile={uploadedFileObj}
+            initialImageSrc={uploadedImageSrc}
+            initialFileName={uploadedFileName}
+          />
+        )}
         {activeTab === 'preprocessing' && <PreprocessingTab />}
         {activeTab === 'dataset' && <DatasetStatsTab />}
         {activeTab === 'evaluation' && <EvaluationTab />}

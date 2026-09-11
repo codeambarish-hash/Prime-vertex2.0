@@ -1,0 +1,40 @@
+{
+  "dataset_version": "2026-09-10T22:09:57Z",
+  "total_images": 154,
+  "images_per_class": {
+    "normal": 22,
+    "crack": 22,
+    "scratch": 22,
+    "dent": 22,
+    "stain": 22,
+    "discoloration": 22,
+    "dimensional_irregularity": 22
+  },
+  "image_dimensions": [
+    {
+      "dimensions": "256x256 (channels: 3)",
+      "count": 147
+    },
+    {
+      "dimensions": "1024x1024 (channels: 3)",
+      "count": 7
+    }
+  ],
+  "corrupted_images": 0,
+  "corrupted_files": [],
+  "duplicate_images": 3,
+  "class_imbalance": {
+    "ratio": 1.0,
+    "assessment": "Mild / Balanced (<= 2:1 ratio)"
+  },
+  "target_directory": "/app/applet/data/unified_keras_dataset",
+  "recommendations": {
+    "train_val_test_split": "70% Training (stratified), 15% Validation, 15% Testing",
+    "recommended_model": "MobileNetV3Small (Pretrained ImageNet, Frozen Backbone, Strong Regularization to prevent overfitting on small data)",
+    "model_architecture": "MobileNetV3Small",
+    "input_resolution": "224x224 RGB",
+    "dataset_issues": [
+      "Non-standard image dimensions detected: ensure fixed aspect ratio letterboxing or resizing to 224x224"
+    ]
+  }
+}

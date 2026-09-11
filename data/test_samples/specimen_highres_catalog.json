@@ -1,0 +1,206 @@
+{
+  "generator_version": "2.4.0-highres",
+  "resolution": {
+    "width": 1024,
+    "height": 1024
+  },
+  "total_specimens": 7,
+  "specimens": [
+    {
+      "id": "specimen_highres_00_normal",
+      "title": "Pristine Brushed 316L Stainless Steel",
+      "defect_class": "normal",
+      "is_defective": false,
+      "resolution": "1024x1024",
+      "substrate": "brushed_stainless_steel",
+      "severity": "NONE",
+      "confidence": 0.991,
+      "anomaly_score": 0.082,
+      "dimensions_mm": {
+        "length": 0.0,
+        "width": 0.0
+      },
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "defect_pixels": 0,
+      "description": "Defect-free pristine manufacturing substrate with standard grain structure.",
+      "files": {
+        "raw": "/samples/specimen_highres_00_normal.png",
+        "mask": "/samples/specimen_highres_00_normal_mask.png",
+        "annotated": "/samples/specimen_highres_00_normal_annotated.png"
+      }
+    },
+    {
+      "id": "specimen_highres_01_crack",
+      "title": "Metallic Micro-Branching Stress Crack",
+      "defect_class": "crack",
+      "is_defective": true,
+      "resolution": "1024x1024",
+      "substrate": "brushed_stainless_steel",
+      "severity": "CRITICAL",
+      "confidence": 0.984,
+      "anomaly_score": 0.941,
+      "dimensions_mm": {
+        "length": 48.5,
+        "width": 38.3
+      },
+      "bbox": [
+        410,
+        208,
+        485,
+        383
+      ],
+      "defect_pixels": 5200,
+      "description": "High-tensile stress fracture with micro-branching fissures and specular edge deformation.",
+      "files": {
+        "raw": "/samples/specimen_highres_01_crack.png",
+        "mask": "/samples/specimen_highres_01_crack_mask.png",
+        "annotated": "/samples/specimen_highres_01_crack_annotated.png"
+      }
+    },
+    {
+      "id": "specimen_highres_02_scratch",
+      "title": "Abrasive High-Aspect Specular Scratch",
+      "defect_class": "scratch",
+      "is_defective": true,
+      "resolution": "1024x1024",
+      "substrate": "machined_lathe_steel",
+      "severity": "MAJOR",
+      "confidence": 0.962,
+      "anomaly_score": 0.887,
+      "dimensions_mm": {
+        "length": 52.7,
+        "width": 54.7
+      },
+      "bbox": [
+        266,
+        206,
+        527,
+        547
+      ],
+      "defect_pixels": 2400,
+      "description": "Mechanical abrasive score mark with burnished specular furrow and gouge shadow trench.",
+      "files": {
+        "raw": "/samples/specimen_highres_02_scratch.png",
+        "mask": "/samples/specimen_highres_02_scratch_mask.png",
+        "annotated": "/samples/specimen_highres_02_scratch_annotated.png"
+      }
+    },
+    {
+      "id": "specimen_highres_03_stain",
+      "title": "Hydrocarbon Lubricant Oil Diffusion Stain",
+      "defect_class": "stain",
+      "is_defective": true,
+      "resolution": "1024x1024",
+      "substrate": "cast_iron_porous",
+      "severity": "MODERATE",
+      "confidence": 0.947,
+      "anomaly_score": 0.865,
+      "dimensions_mm": {
+        "length": 31.7,
+        "width": 28.6
+      },
+      "bbox": [
+        364,
+        360,
+        317,
+        286
+      ],
+      "defect_pixels": 45305,
+      "description": "Industrial cutting lubricant / synthetic oil residue with capillary fluid diffusion boundary.",
+      "files": {
+        "raw": "/samples/specimen_highres_03_stain.png",
+        "mask": "/samples/specimen_highres_03_stain_mask.png",
+        "annotated": "/samples/specimen_highres_03_stain_annotated.png"
+      }
+    },
+    {
+      "id": "specimen_highres_04_dent",
+      "title": "3D Directional Impact Dent Depression",
+      "defect_class": "dent",
+      "is_defective": true,
+      "resolution": "1024x1024",
+      "substrate": "brushed_stainless_steel",
+      "severity": "MAJOR",
+      "confidence": 0.958,
+      "anomaly_score": 0.892,
+      "dimensions_mm": {
+        "length": 27.4,
+        "width": 27.4
+      },
+      "bbox": [
+        375,
+        353,
+        274,
+        274
+      ],
+      "defect_pixels": 49077,
+      "description": "Spherical tooling impact impression with asymmetric Lambertian directional shading.",
+      "files": {
+        "raw": "/samples/specimen_highres_04_dent.png",
+        "mask": "/samples/specimen_highres_04_dent_mask.png",
+        "annotated": "/samples/specimen_highres_04_dent_annotated.png"
+      }
+    },
+    {
+      "id": "specimen_highres_05_discoloration",
+      "title": "Thermal Oxidation Heat Tint Temper HAZ",
+      "defect_class": "discoloration",
+      "is_defective": true,
+      "resolution": "1024x1024",
+      "substrate": "brushed_stainless_steel",
+      "severity": "MODERATE",
+      "confidence": 0.932,
+      "anomaly_score": 0.814,
+      "dimensions_mm": {
+        "length": 39.0,
+        "width": 29.0
+      },
+      "bbox": [
+        295,
+        365,
+        390,
+        290
+      ],
+      "defect_pixels": 73489,
+      "description": "Thermal oxidation heat-affected zone exhibiting multi-spectral temper color oxidation.",
+      "files": {
+        "raw": "/samples/specimen_highres_05_discoloration.png",
+        "mask": "/samples/specimen_highres_05_discoloration_mask.png",
+        "annotated": "/samples/specimen_highres_05_discoloration_annotated.png"
+      }
+    },
+    {
+      "id": "specimen_highres_06_dimensional_irregularity",
+      "title": "Precision Edge Notch Tolerance Violation",
+      "defect_class": "dimensional_irregularity",
+      "is_defective": true,
+      "resolution": "1024x1024",
+      "substrate": "machined_lathe_steel",
+      "severity": "CRITICAL",
+      "confidence": 0.979,
+      "anomaly_score": 0.935,
+      "dimensions_mm": {
+        "length": 19.2,
+        "width": 13.8
+      },
+      "bbox": [
+        364,
+        0,
+        192,
+        138
+      ],
+      "defect_pixels": 11794,
+      "description": "Perimeter geometry violation: material excision notch breaching CAD envelope tolerance.",
+      "files": {
+        "raw": "/samples/specimen_highres_06_dimensional_irregularity.png",
+        "mask": "/samples/specimen_highres_06_dimensional_irregularity_mask.png",
+        "annotated": "/samples/specimen_highres_06_dimensional_irregularity_annotated.png"
+      }
+    }
+  ]
+}

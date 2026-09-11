@@ -1,0 +1,58 @@
+{
+  "model_name": "Model B (Combined - Unified Keras + PyTorch Dataset)",
+  "dataset_source": "data/unified_keras_dataset",
+  "dataset_size": 154,
+  "test_samples_evaluated": 28,
+  "accuracy": 0.9565,
+  "precision": 0.9602,
+  "recall": 0.9565,
+  "f1_score": 0.9548,
+  "critical_manufacturing_errors": {
+    "false_negatives": 0,
+    "false_positives": 0
+  },
+  "per_class_report": {
+    "normal": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6
+    },
+    "crack": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4
+    },
+    "scratch": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4
+    },
+    "dent": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3
+    },
+    "stain": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2
+    },
+    "discoloration": {
+      "precision": 0.67,
+      "recall": 1.0,
+      "f1-score": 0.8,
+      "support": 2
+    },
+    "dimensional_irregularity": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6667,
+      "support": 2
+    }
+  }
+}

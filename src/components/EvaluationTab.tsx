@@ -14,8 +14,10 @@ import {
   Crosshair,
   ShieldCheck,
   Zap,
-  Info
+  Info,
+  History
 } from 'lucide-react';
+import { TrainingHistoryTable } from './TrainingHistoryTable';
 
 interface ClassMetric {
   className: string;
@@ -142,7 +144,7 @@ SECTION 5: GENERATED VISUALIZATION ARTIFACTS
 ==============================================================================`;
 
 export const EvaluationTab: React.FC = () => {
-  const [subView, setSubView] = useState<'curves' | 'matrix' | 'classes' | 'localization' | 'report'>('curves');
+  const [subView, setSubView] = useState<'curves' | 'matrix' | 'classes' | 'localization' | 'history' | 'report'>('curves');
   const [threshold, setThreshold] = useState<number>(0.50);
   const [hoveredCell, setHoveredCell] = useState<{ row: number; col: number; val: number } | null>(null);
   const [copied, setCopied] = useState(false);
@@ -230,6 +232,17 @@ export const EvaluationTab: React.FC = () => {
           >
             <Crosshair className="w-3.5 h-3.5 text-amber-600" />
             IoU & Localization
+          </button>
+          <button
+            onClick={() => setSubView('history')}
+            className={`px-3 py-1.5 rounded-md transition-colors whitespace-nowrap flex items-center gap-1.5 ${
+              subView === 'history'
+                ? 'bg-white text-indigo-900 shadow-xs font-bold'
+                : 'text-slate-600 hover:text-slate-900'
+            }`}
+          >
+            <History className="w-3.5 h-3.5 text-indigo-600" />
+            Training History
           </button>
           <button
             onClick={() => setSubView('report')}
@@ -846,6 +859,9 @@ export const EvaluationTab: React.FC = () => {
           </div>
         </div>
       )}
+
+      {/* Training History Sub-view */}
+      {subView === 'history' && <TrainingHistoryTable />}
 
       {/* Raw ASCII Report Viewer Sub-view */}
       {subView === 'report' && (

@@ -1,0 +1,58 @@
+{
+  "model_name": "Model A (Baseline - Existing Dataset Only)",
+  "dataset_source": "data/keras_dataset",
+  "dataset_size": 48,
+  "test_samples_evaluated": 23,
+  "accuracy": 0.8261,
+  "precision": 0.819,
+  "recall": 0.8261,
+  "f1_score": 0.8184,
+  "critical_manufacturing_errors": {
+    "false_negatives": 2,
+    "false_positives": 1
+  },
+  "per_class_report": {
+    "normal": {
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1-score": 0.8571,
+      "support": 6
+    },
+    "crack": {
+      "precision": 0.75,
+      "recall": 0.75,
+      "f1-score": 0.75,
+      "support": 4
+    },
+    "scratch": {
+      "precision": 0.75,
+      "recall": 0.75,
+      "f1-score": 0.75,
+      "support": 4
+    },
+    "dent": {
+      "precision": 1.0,
+      "recall": 0.67,
+      "f1-score": 0.8,
+      "support": 3
+    },
+    "stain": {
+      "precision": 0.67,
+      "recall": 1.0,
+      "f1-score": 0.8,
+      "support": 2
+    },
+    "discoloration": {
+      "precision": 1.0,
+      "recall": 0.67,
+      "f1-score": 0.8,
+      "support": 3
+    },
+    "dimensional_irregularity": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6667,
+      "support": 2
+    }
+  }
+}

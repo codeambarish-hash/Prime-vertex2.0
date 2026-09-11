@@ -1,0 +1,26 @@
+{
+  "dataset_sources": [
+    "Existing Keras Dataset (data/keras_dataset)",
+    "Additional PyTorch Dataset (data/pytorch_dataset)"
+  ],
+  "number_of_images": 154,
+  "classes": [
+    "normal",
+    "crack",
+    "scratch",
+    "dent",
+    "stain",
+    "discoloration",
+    "dimensional_irregularity"
+  ],
+  "training_date": "2026-09-10T22:09:57Z",
+  "image_size": [
+    224,
+    224,
+    3
+  ],
+  "model_architecture": "EfficientNetB0 (ImageNet Transfer Learning)",
+  "training_epochs": 70,
+  "test_accuracy": 0.9565,
+  "test_f1_score": 0.9548
+}

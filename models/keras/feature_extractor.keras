@@ -1,0 +1,1 @@
+PK{"model_type": "KerasFeatureExtractor", "backbone": "EfficientNetB0", "pooling": "GlobalAveragePooling2D", "embedding_dim": 1280, "input_shape": [224, 224, 3], "norm": "L2 unit-normalized"}

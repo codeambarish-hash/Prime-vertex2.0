@@ -1,0 +1,26 @@
+{
+  "model_name": "EfficientNetB0",
+  "framework": "TensorFlow 2.x / Keras",
+  "architecture": "EfficientNetB0 ImageNet Transfer Learning",
+  "input_shape": [
+    224,
+    224,
+    3
+  ],
+  "num_classes": 7,
+  "classes": [
+    "normal",
+    "crack",
+    "scratch",
+    "dent",
+    "stain",
+    "discoloration",
+    "dimensional_irregularity"
+  ],
+  "initial_learning_rate": 0.001,
+  "fine_tune_learning_rate": 0.0001,
+  "dropout_rate": 0.3,
+  "confidence_threshold": 0.6,
+  "two_stage_training": true,
+  "created_at": "2026-09-10T22:09:57Z"
+}

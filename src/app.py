@@ -50,6 +50,15 @@ from werkzeug.utils import secure_filename
 
 from src.config import DEFECT_CLASSES, OUTPUTS_DIR, DEFAULT_IMAGE_SIZE
 from src.pipeline import run_inspection, visualize_inspection_result
+from src.keras_model import run_keras_inference, check_gpu_status, get_keras_model
+from src.keras_config import (
+    KERAS_CONFIDENCE_THRESHOLD,
+    SAVED_MODEL_PATH,
+    EVALUATION_METRICS_PATH,
+    CLASSIFICATION_REPORT_PATH,
+    TRAINING_HISTORY_PATH,
+    DEFECT_CLASSES as KERAS_DEFECT_CLASSES,
+)
 
 
 # =============================================================================
@@ -326,6 +335,173 @@ def download_report(batch_id: str):
         as_attachment=True,
         download_name=f"inspection_report_{batch_id}.csv"
     )
+
+
+# =============================================================================
+# TensorFlow / Keras Pipeline Endpoints
+# =============================================================================
+
+@app.route("/api/keras/status", methods=["GET"])
+def keras_status():
+    """
+    GET /api/keras/status
+    Reports the operational status of the TensorFlow / Keras pipeline,
+    including model availability, GPU hardware detection, active classes,
+    and confidence threshold settings.
+    """
+    gpu_info = check_gpu_status()
+    model_loaded = SAVED_MODEL_PATH.exists()
+
+    return jsonify({
+        "status": "ready",
+        "framework": "TensorFlow / Keras",
+        "model_file_exists": model_loaded,
+        "model_path": str(SAVED_MODEL_PATH),
+        "confidence_threshold": KERAS_CONFIDENCE_THRESHOLD,
+        "classes": KERAS_DEFECT_CLASSES,
+        "num_classes": len(KERAS_DEFECT_CLASSES),
+        "hardware": gpu_info,
+        "training_script": "python training/train_keras.py",
+        "evaluation_script": "python training/evaluate_keras.py"
+    })
+
+
+@app.route("/api/keras/predict", methods=["POST"])
+@app.route("/keras/predict", methods=["POST"])
+def keras_predict():
+    """
+    POST /api/keras/predict
+    Executes deep defect classification using the TensorFlow/Keras pipeline.
+    Accepts single image via multipart/form-data ('file' or 'image').
+    Supports custom confidence threshold via form parameter 'threshold'.
+    """
+    image_file = request.files.get("file") or request.files.get("image")
+    if not image_file or image_file.filename == "":
+        return jsonify({
+            "success": False,
+            "error": "No image file provided in request. Please supply a 'file' parameter."
+        }), 400
+
+    filename = secure_filename(image_file.filename) or "specimen.png"
+    if not is_allowed_filename(filename):
+        return jsonify({
+            "success": False,
+            "error": f"Unsupported format for '{filename}'. Allowed: png, jpg, jpeg, bmp."
+        }), 400
+
+    # Read threshold parameter
+    threshold = request.form.get("threshold", type=float)
+    if threshold is None or threshold <= 0 or threshold >= 1.0:
+        threshold = KERAS_CONFIDENCE_THRESHOLD
+
+    # Read image bytes
+    raw_bytes = image_file.read()
+    if len(raw_bytes) < 16:
+        return jsonify({
+            "success": False,
+            "error": "Image file is empty or corrupted."
+        }), 400
+
+    # Run inference
+    result = run_keras_inference(raw_bytes, confidence_threshold=threshold, generate_gradcam=True)
+
+    # Encode raw image for client preview
+    b64_img = base64.b64encode(raw_bytes).decode("utf-8")
+    result["image_preview_b64"] = f"data:image/png;base64,{b64_img}"
+    result["filename"] = filename
+
+    # Standardized response structure as specified in Requirement 23
+    prediction_obj = {
+        "class": result.get("class"),
+        "confidence": result.get("confidence", 0.0),
+        "decision": result.get("decision", "defective" if result.get("is_defective") else "normal"),
+        "is_defective": result.get("is_defective", False),
+        "similarity_score": result.get("similarity_score", 0.0),
+        "similar_images": result.get("similar_images", []),
+        "probabilities": result.get("probabilities", {}),
+        "severity": result.get("severity", "NONE"),
+        "recommended_action": result.get("recommended_action", ""),
+        "inference_time_ms": result.get("inference_time_ms", result.get("processing_time_ms", 0.0))
+    }
+
+    response_payload = {
+        "success": True,
+        "prediction": prediction_obj,
+        **result
+    }
+
+    return jsonify(response_payload)
+
+
+@app.route("/keras/reference-image/<path:image_name>", methods=["GET"])
+@app.route("/reference_images/<path:image_name>", methods=["GET"])
+def get_reference_image(image_name: str):
+    """Safe serving of reference images for UI similarity visualization."""
+    clean_name = Path(image_name).name
+    ref_paths = [
+        _PROJECT_ROOT / "public" / "reference_images" / clean_name,
+        _PROJECT_ROOT / "data" / "reference_images" / clean_name
+    ]
+    for p in ref_paths:
+        if p.exists():
+            return send_file(str(p), mimetype="image/png")
+    return jsonify({"error": "Reference image not found"}), 404
+
+
+@app.route("/api/keras/evaluation", methods=["GET"])
+def keras_evaluation():
+    """
+    GET /api/keras/evaluation
+    Returns the latest training and evaluation metrics from outputs/keras/.
+    """
+    if EVALUATION_METRICS_PATH.exists():
+        try:
+            import json
+            with open(EVALUATION_METRICS_PATH, "r") as f:
+                metrics = json.load(f)
+            return jsonify({"status": "success", "metrics": metrics})
+        except Exception as e:
+            return jsonify({"status": "error", "message": str(e)}), 500
+
+    return jsonify({
+        "status": "pending",
+        "message": "Model evaluation metrics not generated yet. Run 'python training/train_keras.py' to generate."
+    })
+
+
+@app.route("/api/keras/training-history", methods=["GET"])
+@app.route("/api/training-history", methods=["GET"])
+def keras_training_history():
+    """
+    GET /api/keras/training-history
+    Streams the parsed training_history.json for visualization in EvaluationTab.
+    """
+    search_paths = [
+        TRAINING_HISTORY_PATH,
+        Path("public/training_history.json"),
+        Path("outputs/keras/training_history.json"),
+        Path("models/keras/training_history.json")
+    ]
+    for p in search_paths:
+        if p and p.exists():
+            try:
+                import json
+                with open(p, "r") as f:
+                    history = json.load(f)
+                return jsonify({
+                    "status": "success",
+                    "source": str(p),
+                    "history": history
+                })
+            except Exception as err:
+                return jsonify({"status": "error", "message": str(err)}), 500
+
+    return jsonify({
+        "status": "not_found",
+        "message": "training_history.json not found. Run training/train_keras.py to generate."
+    }), 404
+
+
 
 
 @app.errorhandler(413)

@@ -75,3 +75,34 @@ export interface DatasetStatsData {
     maxPct: number;
   };
 }
+
+export interface HighResSpecimen {
+  id: string;
+  title: string;
+  defect_class: DefectClass;
+  is_defective: boolean;
+  resolution: string;
+  substrate: string;
+  severity: 'NONE' | 'MODERATE' | 'MAJOR' | 'CRITICAL';
+  confidence: number;
+  anomaly_score: number;
+  dimensions_mm: {
+    length: number;
+    width: number;
+  };
+  bbox: [number, number, number, number];
+  defect_pixels: number;
+  description: string;
+  files: {
+    raw: string;
+    mask: string;
+    annotated: string;
+  };
+}
+
+export interface HighResCatalog {
+  generator_version: string;
+  resolution: { width: number; height: number };
+  total_specimens: number;
+  specimens: HighResSpecimen[];
+}

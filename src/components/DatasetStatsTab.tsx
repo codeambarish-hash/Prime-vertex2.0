@@ -188,20 +188,22 @@ export const DatasetStatsTab: React.FC = () => {
           {/* Directory Hierarchy Card */}
           <div className="bg-white p-5 rounded-xl border border-slate-200 shadow-2xs space-y-3">
             <h3 className="text-sm font-bold text-slate-900">
-              Processed Dataset Disk Structure
+              Dataset & High-Res Sample Assets Structure
             </h3>
             <div className="p-3 bg-slate-900 text-slate-200 font-mono text-xs rounded-lg overflow-x-auto leading-relaxed">
-              <div>data/processed/</div>
-              <div className="text-slate-400">├── images/</div>
-              <div className="text-slate-400">│   ├── train/  <span className="text-emerald-400">(245 .png)</span></div>
-              <div className="text-slate-400">│   ├── val/    <span className="text-blue-400">(52 .png)</span></div>
-              <div className="text-slate-400">│   └── test/   <span className="text-amber-400">(53 .png)</span></div>
-              <div className="text-slate-400">├── masks/</div>
-              <div className="text-slate-400">│   ├── train/  <span className="text-emerald-400">(245 _mask.png)</span></div>
-              <div className="text-slate-400">│   ├── val/    <span className="text-blue-400">(52 _mask.png)</span></div>
-              <div className="text-slate-400">│   └── test/   <span className="text-amber-400">(53 _mask.png)</span></div>
-              <div>├── annotations.json</div>
-              <div>└── dataset_stats.json</div>
+              <div>data/</div>
+              <div className="text-slate-400">├── test_samples/ <span className="text-indigo-400 font-semibold">(1024×1024 High-Res Pipeline Assets)</span></div>
+              <div className="text-slate-400">│   ├── specimen_highres_00_normal.png <span className="text-emerald-400">(Pristine)</span></div>
+              <div className="text-slate-400">│   ├── specimen_highres_01_crack.png <span className="text-rose-400">(Crack + HUD + Mask)</span></div>
+              <div className="text-slate-400">│   ├── specimen_highres_02_scratch.png <span className="text-amber-400">(Scratch + HUD + Mask)</span></div>
+              <div className="text-slate-400">│   ├── specimen_highres_03_stain.png <span className="text-purple-400">(Stain + HUD + Mask)</span></div>
+              <div className="text-slate-400">│   ├── specimen_highres_04_dent.png <span className="text-blue-400">(Dent + HUD + Mask)</span></div>
+              <div className="text-slate-400">│   ├── specimen_highres_05_discoloration.png</div>
+              <div className="text-slate-400">│   ├── specimen_highres_06_dimensional_irregularity.png</div>
+              <div className="text-slate-400">│   └── specimen_highres_catalog.json</div>
+              <div className="text-slate-400">└── processed/</div>
+              <div className="text-slate-400">    ├── images/ [train: 245, val: 52, test: 53]</div>
+              <div className="text-slate-400">    └── masks/  [train: 245, val: 52, test: 53]</div>
             </div>
           </div>
         </div>

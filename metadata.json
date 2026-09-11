@@ -1,6 +1,6 @@
 {
   "name": "Remix Inspectra AI",
-  "description": "AI Powered Visual Inspection — Industrial defect detection, Grad-CAM localization, false-positive reduction with dual confidence gating, morphological filtering, TTA voting, and manual review audit triage.",
+  "description": "AI Powered Visual Inspection — Industrial defect detection with PyTorch & TensorFlow/Keras pipelines, EfficientNetB0 transfer learning, Grad-CAM localization, 7-class taxonomy classification, and real-time inspection studio.",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"

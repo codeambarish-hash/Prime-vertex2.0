@@ -26,6 +26,7 @@ import {
 } from 'lucide-react';
 import { DefectClass, SubstrateType, LightingCondition, InspectionResult } from '../types/inspection';
 import { renderSimulation } from '../utils/defectRenderer';
+import { SampleAssetsGallery } from './SampleAssetsGallery';
 
 const DEFECT_OPTIONS: { id: DefectClass; label: string; desc: string; badgeColor: string }[] = [
   { id: 'normal', label: 'Normal (Pass)', desc: 'Pristine surface with standard manufacturing grain', badgeColor: 'bg-emerald-100 text-emerald-800' },
@@ -177,8 +178,16 @@ export const InspectorTab: React.FC = () => {
     finalDecision = 'CLEAN_PASS';
   }
 
+  const handleLoadIntoInspector = (newSubstrate: SubstrateType, newDefect: DefectClass) => {
+    setSubstrate(newSubstrate);
+    setDefect(newDefect);
+  };
+
   return (
     <div className="space-y-6">
+      {/* High-Resolution Synthetic Industrial Defect Asset Suite (1024x1024) */}
+      <SampleAssetsGallery onLoadIntoInspector={handleLoadIntoInspector} />
+
       {/* Top Banner / Quick Metric Pill Bar */}
       <div className="grid grid-cols-2 sm:grid-cols-5 gap-3">
         <div className="bg-white p-3.5 rounded-xl border border-slate-200 shadow-2xs">
